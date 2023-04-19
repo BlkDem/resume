@@ -14,9 +14,9 @@
 
       <!-- <ul class="text-right text-dark head-ul"> -->
       <p class="right-p"><a class="flex-right" href="mailto:blkdem@blkdem.ru" target="_blank">blkdem@blkdem.ru</a></p>
-      <p class="right-p"><a class="flex-right" href="https://github.com/BlkDem" target="_blank">https://github.com/BlkDem</a></p>
-      <p class="right-p"><a class="flex-right" href="https://umolab-devices.com" target="_blank">https://umolab-devices.com</a></p>
-      <p class="right-p"><a class="flex-right" href="https://linkedin.com/in/blkdem" target="_blank">https://linkedin.com/in/blkdem</a></p>
+      <p class="right-p"><a class="flex-right" href="https://github.com/BlkDem" target="_blank">github.com/BlkDem</a></p>
+      <!-- <p class="right-p"><a class="flex-right" href="https://umolab-devices.com" target="_blank">umolab-devices.com</a></p> -->
+      <p class="right-p"><a class="flex-right" href="https://linkedin.com/in/blkdem" target="_blank">linkedin.com/in/blkdem</a></p>
       <!-- </ul> -->
 
       <p class="space-4"></p>

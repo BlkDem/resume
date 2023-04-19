@@ -12,13 +12,14 @@
 
     </template>
     <template v-slot:right>
+
       <MainHead />
 
-      <Experience />
+      <ExperienceDetail />
 
       <Education />
 
-      <ExperienceDetail />
+      <Experience />
 
       <Languages />
 
