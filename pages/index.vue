@@ -4,16 +4,22 @@
 
       <Logo />
 
-      <h2 class="skills">Skills</h2>
+      <div class="media-hide">
 
-      <SoftSkills />
+        <h2 class="skills">Skills</h2>
 
-      <HardSkills />
+        <SoftSkills />
+
+        <HardSkills />
+
+      </div>
 
     </template>
     <template v-slot:right>
 
       <MainHead />
+
+      <Intro />
 
       <ExperienceDetail />
 
@@ -37,6 +43,7 @@ import Experience from '../components/Experience.vue';
 import ExperienceDetail from '../components/ExperienceDetail.vue';
 import Education from '../components/Education.vue';
 import Languages from '../components/Languages.vue';
+import Intro from '../components/Intro.vue';
 
 export default {
     name: "IndexPage",
@@ -50,6 +57,7 @@ export default {
     ExperienceDetail,
     Education,
     Languages,
+    Intro,
 }
 }
 </script>
@@ -58,7 +66,7 @@ export default {
 
 body {
   font-family: 'Montserrat', 'Arial', 'Sans Serif';
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #333;
 }
 
@@ -152,6 +160,26 @@ ul {
 
 .row-right-border {
   border-right: 8px solid #333;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .media-hide {
+      display: none;
+    }
+
+    .media-text-center {
+      text-align: center;
+    }
+
+    .flex-right {
+      justify-content: center;
+    }
 }
 
 </style>

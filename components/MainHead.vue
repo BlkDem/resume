@@ -4,12 +4,12 @@
       <h1 class="w-100 p-2">
         Максим Пятков
       </h1>
-      <p class="mx-2">Hardware&Software Engineer</p>
+      <p class="mx-2 media-text-center">Hardware&Software Engineer</p>
     </div>
     <div class="col-md-6 p-4">
-      <p class="w-100 text-right">
+      <p class="w-100 flex-right">
         +7 903 907-3355<br>+90 501 082-0257</p>
-      <p class="w-100 text-right">
+      <p class="w-100 flex-right">
         Telergam/WhatsApp</p>
 
       <!-- <ul class="text-right text-dark head-ul"> -->
@@ -20,7 +20,7 @@
       <!-- </ul> -->
 
       <p class="space-4"></p>
-      <p class="w-100 text-right"> Antalya, Turkey </p>
+      <p class="w-100 flex-right"> Antalya, Turkey </p>
     </div>
   </div>
 </template>
@@ -32,11 +32,6 @@
 <style scoped>
 .font-900 {
   font-weight: 900;
-}
-
-.flex-right {
-  display: flex;
-  justify-content: flex-end;
 }
 
 .head-ul {
