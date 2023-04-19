@@ -1,13 +1,13 @@
 <template>
   <BaseCard :card-caption="'Языки'" :color="'dark'">
 
-    <div class="m-4">
+    <!-- <div class="m-4"> -->
 
       <p>Русский, English (B1)</p>
 
       <div class="space-4"></div>
 
-    </div>
+    <!-- </div> -->
 
   </BaseCard>
 

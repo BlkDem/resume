@@ -4,11 +4,11 @@
       <h1 class="w-100 p-2">
         Максим Пятков
       </h1>
-      <p class="mx-4">Hardware&Software Engineer</p>
+      <p class="mx-2">Hardware&Software Engineer</p>
     </div>
     <div class="col-md-6 p-4">
       <p class="w-100 text-right">
-        +7 9039073355<br>+90 5010820257</p>
+        +7 903 907-3355<br>+90 501 082-0257</p>
       <p class="w-100 text-right">
         Telergam/WhatsApp</p>
 

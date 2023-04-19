@@ -98,8 +98,8 @@ h3 {
   font-weight: 700;
   color: white;
   text-transform: uppercase;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  /* margin-left: 1rem;
+  margin-right: 1rem;*/
   border-bottom: 1px solid grey;
   padding-bottom: 8px;
 }

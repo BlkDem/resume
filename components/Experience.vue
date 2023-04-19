@@ -1,11 +1,11 @@
 <template>
   <BaseCard :card-caption="'Опыт работы'" :color="'dark'">
 
-    <div class="m-4">
+    <!-- <div class="m-4"> -->
 
       <p class="small-p">2020-05 - по настоящее время</p>
       <h4>Индивидуальный предприниматель</h4>
-      <p><a class="gold" href="https://umolab-devices.com" target="_blanc">Umolab</a> - разработка микроконтроллеров -
+      <p><a class="gold" href="https://umolab.ru" target="_blanc">Umolab</a> - разработка микроконтроллеров -
         автотюннинг,
         моддинг ПК, IoT, Home Automation, программное
         обеспечение, поддержка бизнеса.</p>
@@ -17,7 +17,7 @@
       <h4>Руководитель департамента ИТ</h4>
       <p>АО «СУЭК» - поддержка инфраструктуры, servicedesk</p>
       <p class="bottom-p">Москва, Россия</p>
-    </div>
+    <!-- </div> -->
 
   </BaseCard>
 
