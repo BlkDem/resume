@@ -19,4 +19,4 @@ $ npm run generate
 
 ## View
 
-https://resume.lkdem.ru
+https://resume.blkdem.ru
