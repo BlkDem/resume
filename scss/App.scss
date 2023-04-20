@@ -1,2 +1,144 @@
 $link-color: gold;
 $link-hover: goldenrod;
+$primary-color: #333;
+$white-color: white;
+$white-silver: #eee;
+$white-grey: #555;
+$grey-color: grey;
+
+
+body {
+  font-family: 'Montserrat', 'Arial', 'Sans Serif';
+  font-size: 1rem;
+  color: $primary-color;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: $link-color;
+  transition: 0.3s;
+}
+
+a:hover {
+  transform: scale(1.05);
+  text-decoration: none;
+  color: $link-hover;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: $primary-color;
+  /* text-transform: uppercase; */
+  font-weight: 900;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: $link-color;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: $white-color;
+  text-transform: uppercase;
+  /* margin-left: 1rem;
+  margin-right: 1rem;*/
+  border-bottom: 1px solid $grey-color;
+  padding-bottom: 8px;
+}
+
+h4 {
+  color: $primary-color;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+h5 {
+  color: $primary-color;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+ul {
+  list-style: circle;
+  color: $white-silver;
+}
+
+.skills {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.skills-panel {
+  margin-bottom: 3rem;
+}
+
+.gold {
+  color: $link-color;
+}
+
+.space-4 {
+  margin-top: 2rem;
+}
+
+.small-p {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: $white-grey;
+  margin: 8px 8px;
+}
+
+.right-p {
+  text-align: end;
+  margin-bottom: auto;
+}
+
+.bottom-p {
+  text-align: right;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.row-right-border {
+  border-right: 8px solid $primary-color;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.p-gradient {
+  background: rgb(255,234,35);
+  background: -moz-linear-gradient(90deg, rgba(255,234,35,1) 0%, rgba(248,227,59,1) 23%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(255,234,35,1) 0%, rgba(248,227,59,1) 23%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(90deg, rgba(255,234,35,1) 0%, rgba(248,227,59,1) 23%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffea23",endColorstr="#ffffff",GradientType=1);
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .container-sm {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    .media-hide {
+      display: none;
+    }
+
+    .media-text-center {
+      text-align: center;
+    }
+
+    .flex-right {
+      justify-content: center;
+    }
+}

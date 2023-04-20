@@ -3,7 +3,8 @@
 
     <!-- <div class="m-4"> -->
 
-      <p class="small-p">2020-05 - по настоящее время</p>
+      <!-- <p class="small-p">2020-05 - по настоящее время</p> -->
+      <div class="p-gradient my-2"><p class="small-p">2020-05 - по настоящее время</p></div>
       <h4>Индивидуальный предприниматель</h4>
       <p><a class="gold" href="https://umolab.ru" target="_blank">Umolab</a> - разработка микроконтроллеров -
         автотюннинг,
@@ -13,7 +14,9 @@
 
       <div class="space-4"></div>
 
-      <p class="small-p">2006-06 - 2020-05</p>
+      <!-- <p class="small-p">2006-06 - 2020-05</p> -->
+      <div class="p-gradient my-2"><p class="small-p">2006-06 - 2020-05</p></div>
+
       <h4>Руководитель департамента ИТ</h4>
       <p>АО «СУЭК» - поддержка инфраструктуры, servicedesk</p>
       <p class="bottom-p">Москва, Россия</p>

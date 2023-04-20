@@ -1,7 +1,7 @@
 <template>
   <BaseCard :card-caption="'Портфолио'" :color="'dark'">
 
-    <p class="small-p">Текущий рабочий проект</p>
+    <div class="p-gradient my-2"><p class="small-p">Текущий рабочий проект</p></div>
     <h4>IoTman - Umolab Device Manager</h4>
     <p><a class="gold" href="https://iotman.blkdem.ru" target="_blank">IoTman</a> - регистрация, конфигурирование
       устройств,
@@ -16,6 +16,7 @@
       </a>
     </p>
 
+    <div class="space-4"></div>
     <h4>Приложения экосистемы Umolab Devices</h4>
     <div class="space-4"></div>
     <h5>MQTT2MySQL Logger</h5>
@@ -28,14 +29,14 @@
 
     <h5>Shop</h5>
     <p> Интернет магазин устройств Umolab Devices - бэкэнд</p>
-    <p> NodeJS / Express / MySQL </p>
+    <p> NodeJS / Express / MySQL - MVC</p>
     <p class="bottom-p">
       <a class="gold" href="https://github.com/BlkDem/umolab-shop-backend" target="_blank">
         https://github.com/BlkDem/umolab-shop-backend
       </a>
     </p>
 
-    <p class="small-p">Это резюме</p>
+    <div class="p-gradient my-2"><p class="small-p">Это резюме</p></div>
     <h4>Резюме - Пятков Максим</h4>
     <p>NuxtJS</p>
     <p class="bottom-p">
