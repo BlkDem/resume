@@ -125,6 +125,10 @@ ul {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+    body {
+      font-size: 0.8rem;
+    }
+
     .container-sm {
       padding-left: 8px;
       padding-right: 8px;
