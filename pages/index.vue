@@ -29,6 +29,8 @@
 
       <Languages />
 
+      <Portfolio />
+
     </template>
   </MasterLayer>
 </template>
@@ -43,6 +45,7 @@ import Experience from '../components/Experience.vue';
 import ExperienceDetail from '../components/ExperienceDetail.vue';
 import Education from '../components/Education.vue';
 import Languages from '../components/Languages.vue';
+import Portfolio from '../components/Portfolio.vue';
 import Intro from '../components/Intro.vue';
 
 export default {
@@ -57,24 +60,28 @@ export default {
     ExperienceDetail,
     Education,
     Languages,
+    Portfolio,
     Intro,
 }
 }
 </script>
 
-<style>
+<style lang="scss">
+
+@import "../scss/App.scss";
 
 body {
   font-family: 'Montserrat', 'Arial', 'Sans Serif';
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #333;
 }
 
 a{
   display: inline-block;
   text-decoration: none;
-  color: gold;
-  /* transition: transform .2s; */
+  color: $link-color;
+  /* color: gold;
+  transition: transform .2s; */
   transition: 0.3s;
 }
 
@@ -82,7 +89,7 @@ a:hover {
   /* text-shadow: 1px 1px 1px #333; */
   transform: scale(1.05);
   text-decoration: none;
-  color: goldenrod;
+  color: $link-hover;
 }
 
 h1 {
@@ -115,6 +122,12 @@ h3 {
 h4 {
   color: #333;
   font-size: 1.1rem;
+  font-weight: 700;
+}
+
+h5 {
+  color: #333;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 

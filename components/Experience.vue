@@ -5,7 +5,7 @@
 
       <p class="small-p">2020-05 - по настоящее время</p>
       <h4>Индивидуальный предприниматель</h4>
-      <p><a class="gold" href="https://umolab.ru" target="_blanc">Umolab</a> - разработка микроконтроллеров -
+      <p><a class="gold" href="https://umolab.ru" target="_blank">Umolab</a> - разработка микроконтроллеров -
         автотюннинг,
         моддинг ПК, IoT, Home Automation, программное
         обеспечение, поддержка бизнеса.</p>
