@@ -12,7 +12,7 @@
     <p> <strong>Фронтэнд:</strong> Vue 3.2 / Bootstrap / Bootswatch Theming </p>
 
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-lav" target="_blank">
-        https://github.com/BlkDem/iotman-lav
+      Github
       </a>
     </p>
 
@@ -23,7 +23,7 @@
     <p> Принимаем, преобразовываем в нужный формат данные из MQTT и пишем в базу </p>
     <p> NodeJS </p>
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
-        https://github.com/BlkDem/iotman-logger
+        Github
       </a>
     </p>
 
@@ -32,7 +32,7 @@
     <p> NodeJS / Express / MySQL - MVC</p>
     <p class="bottom-p">
       <a class="gold" href="https://github.com/BlkDem/umolab-shop-backend" target="_blank">
-        https://github.com/BlkDem/umolab-shop-backend
+        Github
       </a>
     </p>
 
@@ -41,7 +41,7 @@
     <p>NuxtJS</p>
     <p class="bottom-p">
       <a class="gold" href="https://github.com/BlkDem/resume" target="_blank">
-        https://github.com/BlkDem/resume
+        Github
       </a>
     </p>
 
