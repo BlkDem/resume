@@ -9,7 +9,9 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Пятков Максим -  инженер-программист из Анталии. Фронтэнд, бэкэнд, фуллстэк.' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'yandex-verification', content: 'b5601293fe31d239' }
+
     ],
     link: [
 
