@@ -1,7 +1,8 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'resume',
+    title: 'Пятков Максим инженер-программист из Анталии',
+    description: 'Пятков Максим -  инженер-программист из Анталии. Фронтэнд, бэкэнд, фуллстэк.',
     htmlAttrs: {
       lang: 'en'
     },
