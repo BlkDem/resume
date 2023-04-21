@@ -21,14 +21,14 @@
           </a>
         </div>
         <div class="mx-1">
-          <a class="gold" href="https://wa.me/79039073355" target="_blank" v-b-tooltip.hover
-            title="+7 903 907-3355 / +90 501 082-0257">
-            <font-awesome-icon icon="fa-brands fa-square-whatsapp" size="2xl" />
+          <a class="gold" href="mailto:blkdem@blkdem.ru" target="_blank" v-b-tooltip.hover title="blkdem@blkdem.ru">
+            <font-awesome-icon icon="fa-solid fa-square-envelope" size="2xl" />
           </a>
         </div>
         <div class="mx-1">
-          <a class="gold" href="mailto:blkdem@blkdem.ru" target="_blank" v-b-tooltip.hover title="blkdem@blkdem.ru">
-            <font-awesome-icon icon="fa-solid fa-square-envelope" size="2xl" />
+          <a class="gold" href="https://wa.me/79039073355" target="_blank" v-b-tooltip.hover
+            title="+7 903 907-3355 / +90 501 082-0257">
+            <font-awesome-icon icon="fa-brands fa-square-whatsapp" size="2xl" />
           </a>
         </div>
         <div class="mx-1">
@@ -40,7 +40,7 @@
           <a class="gold"
             href="https://www.google.com/maps/place/36%C2%B053'43.7%22N+30%C2%B042'14.0%22E/@36.895482,30.7013021,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.895482!4d30.703877"
             target="_blank" v-b-tooltip.hover title="Antalya, Turkey">
-            <font-awesome-icon icon="fa-solid fa-location-dot" size="2xl" />
+            <font-awesome-icon icon="fa-solid fa-location-crosshairs" size="2xl" />
           </a>
         </div>
       </div>
@@ -62,7 +62,7 @@
 }
 
 .font-2x {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .icon-social {

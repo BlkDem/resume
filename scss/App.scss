@@ -14,16 +14,16 @@ body {
 }
 
 a{
-  display: inline-block;
+  // display: inline-block;
   text-decoration: none;
   color: $link-color;
   transition: 0.3s;
 }
 
 a:hover {
-  transform: scale(1.05);
   text-decoration: none;
   color: $link-hover;
+  transform: scale(1.05);
 }
 
 h1 {
