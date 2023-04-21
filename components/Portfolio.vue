@@ -8,8 +8,8 @@
       разрабатываемых компанией <a class="gold" href="https://umolab.ru" target="_blank">Umolab</a><br>
       Регистрация пользователей. Мониторинг и журналирование работы устройств.
     </p>
-    <p> <strong>Бэкэнд:</strong> Laravel 9.5 / PHP 8.2 </p>
-    <p> <strong>Фронтэнд:</strong> Vue 3.2 / Bootstrap / Bootswatch Theming </p>
+    <p> <strong>Бэкэнд:</strong> Laravel / PHP </p>
+    <p> <strong>Фронтэнд:</strong> Vue / Bootstrap / Bootswatch Theming </p>
 
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-lav" target="_blank">
       Github
