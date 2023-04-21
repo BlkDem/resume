@@ -28,7 +28,7 @@
     </p>
 
     <h5>3D конфигуратор - витрина</h5>
-    <p> Интернет магазин устройств Umolab Devices - конфигуратор устройства.</p>
+    <p> Интернет магазин устройств Umolab Devices - дизайн устройства.</p>
     <p> Клиенту предлагается самому выбрать внешний вид устройства и сделать заказ.</p>
     <p> ModX / Fusion 360 / Blender / Verge3D / JS</p>
     <p> <a href="https://mycase.umolab.ru/" class="gold" target="_blank">https://mycase.umolab.ru/</a></p>
