@@ -65,6 +65,22 @@
       </a>
     </p>
 
+    <div class="space-4"></div>
+    <h5>Магазин поставщика промышленного оборудования - rus-mine.com</h5>
+    <p> Ocstore / PHP / CSS </p>
+    <p class="bottom-p"><a class="gold" href="https://rus-mine.com" target="_blank">
+        rus-mine.com
+      </a>
+    </p>
+
+    <div class="space-4"></div>
+    <h5>Фитнес-клуб - glclub.ru</h5>
+    <p> ModX / Bootstrap / Fusion 360 / Sketchfab </p>
+    <p class="bottom-p"><a class="gold" href="https://rus-mine.com" target="_blank">
+        glclub.ru
+      </a>
+    </p>
+
   </BaseCard>
 
 </template>
