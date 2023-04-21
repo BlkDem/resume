@@ -76,7 +76,7 @@
     <div class="space-4"></div>
     <h5>Фитнес-клуб - glclub.ru</h5>
     <p> ModX / Bootstrap / Fusion 360 / Sketchfab </p>
-    <p class="bottom-p"><a class="gold" href="https://rus-mine.com" target="_blank">
+    <p class="bottom-p"><a class="gold" href="https://glclub.ru" target="_blank">
         glclub.ru
       </a>
     </p>
