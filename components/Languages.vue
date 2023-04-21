@@ -1,5 +1,9 @@
 <template>
-  <BaseCard :card-caption="'Языки'" :color="'dark'">
+  <BaseCard
+    :card-caption="'Языки'"
+    :color="'dark'"
+    :icon="'fa-solid fa-language'"
+  >
 
     <!-- <div class="m-4"> -->
 

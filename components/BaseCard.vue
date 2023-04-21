@@ -3,8 +3,9 @@
     <div class="skills-panel">
       <div class="mb-4">
         <h3 :class="{'light-color': color==='light', 'dark-color': color==='dark'}">
-          <img src="../store/images/list.png" class="card-item-image" alt="">
+          <!-- <img src="../store/images/list.png" class="card-item-image" alt=""> -->
           <!-- <span class="gold">&#9931;</span> -->
+          <span class="gold"><font-awesome-icon :icon="icon" /></span>
           {{ cardCaption }}
         </h3>
       </div>
@@ -27,6 +28,11 @@ export default {
     color: {
       type: String,
       default: '#eee'
+    },
+
+    icon: {
+      type: String,
+      default: 'fa-brands fa-ubuntu'
     }
   }
 }

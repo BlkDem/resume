@@ -1,5 +1,9 @@
 <template>
-  <BaseCard :card-caption="'Опыт работы'" :color="'dark'">
+  <BaseCard
+    :card-caption="'Опыт работы'"
+    :color="'dark'"
+    :icon="'fa-solid fa-person-digging'"
+  >
 
     <!-- <div class="m-4"> -->
 

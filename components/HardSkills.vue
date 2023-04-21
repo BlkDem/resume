@@ -1,6 +1,7 @@
 <template>
   <BaseCard
     :card-caption="'Hardware'"
+    :icon="'fa-solid fa-microchip'"
   >
     <ul>
       <li>ESP</li>

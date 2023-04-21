@@ -31,6 +31,8 @@
 
       <Portfolio />
 
+      <Any />
+
     </template>
   </MasterLayer>
 
@@ -49,6 +51,7 @@ import Education from '../components/Education.vue';
 import Languages from '../components/Languages.vue';
 import Portfolio from '../components/Portfolio.vue';
 import Intro from '../components/Intro.vue';
+import AnyProjects from '../components/Any.vue';
 
 export default {
     name: "IndexPage",
@@ -64,6 +67,7 @@ export default {
     Languages,
     Portfolio,
     Intro,
+    AnyProjects,
 }
 }
 </script>

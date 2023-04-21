@@ -3,6 +3,7 @@
 <template>
   <BaseCard
     :card-caption="'Software'"
+    :icon="'fa-brands fa-ubuntu'"
   >
   <ul>
       <li>Laravel/PHP</li>

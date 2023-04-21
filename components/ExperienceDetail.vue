@@ -1,7 +1,9 @@
 <template>
-  <BaseCard :card-caption="'Навыки'" :color="'dark'">
-
-    <!-- <div class="m-4"> -->
+  <BaseCard
+    :card-caption="'Навыки'"
+    :color="'dark'"
+    :icon="'fa-solid fa-kitchen-set'"
+  >
 
       <h4>Основной стэк</h4>
       <p>PHP/Laravel (REST API), VueJS/NuxtJS, NodeJS, MySQL, HTML/CSS/JS</p>
@@ -17,8 +19,6 @@
       <p>Linux/Windows, администрирование, поддержка, серверы, разработка сервисов</p>
 
       <div class="space-4"></div>
-
-    <!-- </div> -->
 
   </BaseCard>
 

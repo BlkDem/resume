@@ -1,5 +1,9 @@
 <template>
-  <BaseCard :card-caption="'Интро'" :color="'dark'">
+  <BaseCard
+    :card-caption="'Интро'"
+    :color="'dark'"
+    :icon="'fa-solid fa-envelope-open-text'"
+  >
 
       <h4>Привет!</h4>
       <p>Меня зовут Максим, и я ищу работу на позицию back, front или fullstack разработчика.</p>

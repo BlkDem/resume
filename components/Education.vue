@@ -1,5 +1,9 @@
 <template>
-  <BaseCard :card-caption="'Образование'" :color="'dark'">
+  <BaseCard
+    :card-caption="'Образование'"
+    :color="'dark'"
+    :icon="'fa-solid fa-user-graduate'"
+  >
 
     <!-- <div class="m-2"> -->
 

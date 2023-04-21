@@ -122,6 +122,9 @@ ul {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffea23",endColorstr="#ffffff",GradientType=1);
 }
 
+.fas .fab {
+  color: $link-color;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
