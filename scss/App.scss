@@ -87,10 +87,14 @@ ul {
   margin-top: 2rem;
 }
 
+.space-bottom-8 {
+  padding-bottom: 4rem;
+}
+
 .small-p {
   font-size: 0.9rem;
   font-style: italic;
-  color: $white-grey;
+  color: $white-color;
   margin: 8px 8px;
 }
 
@@ -126,30 +130,30 @@ ul {
   color: $link-color;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
 
-    body {
-      font-size: 0.9rem;
-    }
+  .container-sm {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 
-    .container-sm {
-      padding-left: 8px;
-      padding-right: 8px;
-    }
+  .media-hide {
+    display: none;
+  }
 
-    .media-hide {
-      display: none;
-    }
+  .media-text-center {
+    text-align: left;
+  }
 
-    .media-text-center {
-      text-align: left;
-    }
+  .flex-right {
+    justify-content: flex-start;
+  }
 
-    .flex-right {
-      justify-content: flex-start;
-    }
+  .bottom-p {
+    font-size: 0.8rem;
+  }
 
-    .bottom-p {
-      font-size: 0.8rem;
-    }
 }

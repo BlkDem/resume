@@ -10,10 +10,10 @@
 
       <div class="space-4"></div>
 
-      <h4>Контроллеры</h4>
+      <!-- <h4>Контроллеры</h4>
       <p>AVR, ESP - C/C++, Arduino IDE</p>
 
-      <div class="space-4"></div>
+      <div class="space-4"></div> -->
 
       <h4>ОС</h4>
       <p>Linux/Windows, администрирование, поддержка, серверы, разработка сервисов</p>
