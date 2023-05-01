@@ -1,6 +1,5 @@
 <template>
 
-<template>
   <BaseCard
     :card-caption="'Software'"
     :icon="'fa-brands fa-ubuntu'"
@@ -13,7 +12,6 @@
       <li>LINUX</li>
     </ul>
   </BaseCard>
-</template>
 
 </template>
 
