@@ -2,7 +2,7 @@
   <BaseCard
     :card-caption="'Зарплатные ожидания'"
     :color="'dark'"
-    :icon="'fa-solid fa-language'"
+    :icon="'fa-solid fa-sack-dollar'"
   >
       <p>200 000 ₽ / 2 500 $ на руки</p>
 
