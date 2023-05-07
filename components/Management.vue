@@ -1,6 +1,5 @@
 <template>
 
-<template>
   <BaseCard
     :card-caption="'Management'"
     :icon="'fa-solid fa-user-tie'"
@@ -13,8 +12,6 @@
       <li>LINUX</li>
     </ul>
   </BaseCard>
-</template>
-
 </template>
 
 <script>
