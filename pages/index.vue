@@ -29,6 +29,8 @@
 
       <Intro />
 
+      <Money />
+
       <ExperienceDetail />
 
       <Education />
@@ -62,6 +64,7 @@ import Languages from '../components/Languages.vue';
 import Portfolio from '../components/Portfolio.vue';
 import Intro from '../components/Intro.vue';
 import AnyProjects from '../components/Any.vue';
+import Money from '../components/Money.vue'
 
 export default {
     name: "IndexPage",
@@ -81,6 +84,7 @@ export default {
       Portfolio,
       Intro,
       AnyProjects,
+      Money
     }
 }
 </script>
