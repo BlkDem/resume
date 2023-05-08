@@ -12,10 +12,11 @@
       разрабатываемых компанией <a class="gold" href="https://umolab.ru" target="_blank">Umolab</a><br>
       Регистрация пользователей. Мониторинг и журналирование работы устройств.
     </p>
-    <p> <strong>Бэкэнд:</strong> Laravel / PHP </p>
-    <p> <strong>Фронтэнд:</strong> Vue / Bootstrap / Bootswatch Theming </p>
 
-    <p> <strong>Роли:</strong>strong> автор, архитектор, разработчик </p>
+    <p> <strong> Бэкэнд: </strong> Laravel / PHP </p>
+    <p> <strong> Фронтэнд: </strong> Vue / Bootstrap / Bootswatch Theming </p>
+
+    <p> <strong>Роли:</strong> автор, архитектор, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-lav" target="_blank">
       Github
@@ -29,7 +30,7 @@
     <p> Принимаем, преобразовываем в нужный формат данные из MQTT и пишем в базу </p>
     <p> NodeJS </p>
 
-    <p> <strong>Роли:</strong>strong> автор, исполнитель </p>
+    <p> <strong>Роли:</strong> автор, исполнитель </p>
 
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
         Github
@@ -41,7 +42,7 @@
     <p> Клиенту предлагается самому выбрать внешний вид устройства и сделать заказ.</p>
     <p> ModX / Fusion 360 / Blender / Verge3D / JS</p>
 
-    <p> <strong>Роли:</strong>strong> автор, 3D-дизайнер, разработчик </p>
+    <p> <strong>Роли:</strong> автор, 3D-дизайнер, разработчик </p>
 
     <!-- <p> <a href="https://mycase.umolab.ru/" class="gold" target="_blank">https://mycase.umolab.ru/</a></p> -->
     <p class="bottom-p">
@@ -63,7 +64,7 @@
     <div class="p-gradient my-2"><p class="small-p">Это резюме</p></div>
     <h4>Резюме - Пятков Максим</h4>
     <p>NuxtJS</p>
-    <p> <strong>Роли:</strong>strong> автор, разработчик </p>
+    <p> <strong>Роли:</strong> автор, разработчик </p>
 
     <p class="bottom-p">
       <a class="gold" href="https://github.com/BlkDem/resume" target="_blank">

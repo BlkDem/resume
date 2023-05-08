@@ -9,7 +9,7 @@
     <p> Геоинформационная система. Город снимается мультиротором (квадрокоптером) с заданной высоты.
       Создаются панорамы, логически связываются. Наносятся информационные метки.
       Добавляется мультимедийный контент.</p>
-    <p> <strong>Роли:</strong>strong> автор, архитектор, разработчик </p>
+    <p> <strong>Роли:</strong> автор, архитектор, разработчик </p>
     <p> ModX / Pano2VR / JS </p>
 
     <p class="bottom-p"><a class="gold" href="https://gis3d.ru" target="_blank">
@@ -20,7 +20,7 @@
     <div class="space-4"></div>
     <h5>Магазин поставщика промышленного оборудования - rus-mine.com</h5>
     <p> Ocstore / PHP / CSS </p>
-    <p> <strong>Роли:</strong>strong> дизайнер, разработчик </p>
+    <p> <strong>Роли:</strong> дизайнер, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://rus-mine.com" target="_blank">
         rus-mine.com
@@ -31,7 +31,7 @@
     <h5>Фитнес-клуб - glclub.ru</h5>
     <p> ModX / Bootstrap / Fusion 360 / Sketchfab </p>
 
-    <p> <strong>Роли:</strong>strong> автор, дизайнер, разработчик </p>
+    <p> <strong>Роли:</strong> автор, дизайнер, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://glclub.ru" target="_blank">
         glclub.ru
