@@ -7,6 +7,9 @@
 
     <div class="p-gradient my-2"><p class="small-p">Текущий рабочий проект</p></div>
     <h4>IoTman - Umolab Device Manager</h4>
+
+    <img src="../store/images/thumb/iotman1.png" class="thumb-img" alt="Iotman">
+
     <p><a class="gold" href="https://iotman.blkdem.ru" target="_blank">IoTman</a> - регистрация, конфигурирование
       устройств,
       разрабатываемых компанией <a class="gold" href="https://umolab.ru" target="_blank">Umolab</a><br>
@@ -26,21 +29,12 @@
     <div class="space-4"></div>
     <h4>Приложения экосистемы Umolab Devices</h4>
     <div class="space-4"></div>
-    <h5>MQTT2MySQL Logger</h5>
-    <p> Принимаем, преобразовываем в нужный формат данные из MQTT и пишем в базу </p>
-    <p> NodeJS </p>
-
-    <p> <strong>Роли:</strong> автор, исполнитель </p>
-
-    <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
-        Github
-      </a>
-    </p>
 
     <h5>3D конфигуратор - витрина</h5>
+    <img src="../store/images/thumb/mycase1.png" class="thumb-img" alt="3D conf"/>
     <p> Интернет магазин устройств Umolab Devices - дизайн устройства.</p>
     <p> Клиенту предлагается самому выбрать внешний вид устройства и сделать заказ.</p>
-    <p> ModX / Fusion 360 / Blender / Verge3D / JS</p>
+    <p> <strong>Стек:</strong> ModX / Fusion 360 / Blender / Verge3D / JS</p>
 
     <p> <strong>Роли:</strong> автор, 3D-дизайнер, разработчик </p>
 
@@ -50,6 +44,22 @@
         mycase.umolab.ru
       </a>
     </p>
+
+
+    <div class="w-100 h-160px">
+      <h5>MQTT2MySQL Logger</h5>
+      <img src="../store/images/thumb/mqtt.png" class="thumb-img" alt="MQTT2MySQL"/>
+      <p> Принимаем данные сервиса MQTT, преобразовываем в нужный формат и записываем в БД. </p>
+    </div>
+    <p><strong>Стек:</strong> NodeJS </p>
+
+    <p> <strong>Роли:</strong> автор, исполнитель </p>
+
+    <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
+        Github
+      </a>
+    </p>
+
 
 
     <!-- <h5>Shop</h5>
@@ -88,4 +98,19 @@ export default {
 </script>
 
 <style>
+
+.thumb-img {
+  width: 200px;
+  height: auto;
+  margin-right: 8px;
+  float: left;
+  border: 2px solid gold;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.h-160px {
+  height: 160px;
+}
+
 </style>
