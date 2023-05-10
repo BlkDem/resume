@@ -8,7 +8,8 @@
     <div class="p-gradient my-2"><p class="small-p">Текущий рабочий проект</p></div>
     <h4>IoTman - Umolab Device Manager</h4>
 
-    <img src="../store/images/thumb/iotman1.png" class="thumb-img" alt="Iotman">
+    <a class="gold" href="https://iotman.blkdem.ru" target="_blank">
+    <img src="../store/images/thumb/iotman1.png" class="thumb-img" alt="Iotman"></a>
 
     <p><a class="gold" href="https://iotman.blkdem.ru" target="_blank">IoTman</a> - регистрация, конфигурирование
       устройств,
@@ -31,7 +32,8 @@
     <div class="space-4"></div>
 
     <h5>3D конфигуратор - витрина</h5>
-    <img src="../store/images/thumb/mycase1.png" class="thumb-img" alt="3D conf"/>
+    <a class="gold" href="https://mycase.umolab.ru/" target="_blank">
+    <img src="../store/images/thumb/mycase1.png" class="thumb-img" alt="3D conf"/></a>
     <p> Интернет магазин устройств Umolab Devices - дизайн устройства.</p>
     <p> Клиенту предлагается самому выбрать внешний вид устройства и сделать заказ.</p>
     <p> <strong>Стек:</strong> ModX / Fusion 360 / Blender / Verge3D / JS</p>
@@ -48,7 +50,8 @@
 
     <div class="w-100 h-160px">
       <h5>MQTT2MySQL Logger</h5>
-      <img src="../store/images/thumb/mqtt.png" class="thumb-img" alt="MQTT2MySQL"/>
+      <a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
+      <img src="../store/images/thumb/mqtt.png" class="thumb-img" alt="MQTT2MySQL"/></a>
       <p> Принимаем данные сервиса MQTT, преобразовываем в нужный формат и записываем в БД. </p>
     </div>
     <p><strong>Стек:</strong> NodeJS </p>

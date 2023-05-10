@@ -6,7 +6,8 @@
   >
 
     <h5>Городской проект - gis3d.ru</h5>
-    <img src="../store/images/thumb/gis3d.png" class="thumb-img" alt="gis3d.ru"/>
+    <a class="gold" href="https://gis3d.ru" target="_blank">
+    <img src="../store/images/thumb/gis3d.png" class="thumb-img" alt="gis3d.ru"/></a>
     <p> Геоинформационная система. Город снимается мультиротором (квадрокоптером) с заданной высоты.
       Создаются панорамы, логически связываются. Наносятся информационные метки.
       Добавляется мультимедийный контент.</p>
@@ -20,7 +21,8 @@
 
     <div class="space-4"></div>
     <h5>Магазин поставщика промышленного оборудования - rus-mine.com</h5>
-    <img src="../store/images/thumb/rm.png" class="thumb-img" alt="rus-mine.com"/>
+    <a class="gold" href="https://rus-mine.com" target="_blank">
+    <img src="../store/images/thumb/rm.png" class="thumb-img" alt="rus-mine.com"/></a>
     <p><strong>Стек: </strong> Ocstore / PHP / CSS </p>
     <p> <strong>Роли:</strong> дизайнер, разработчик </p>
 
@@ -31,7 +33,8 @@
 
     <div class="space-4"></div>
     <h5>Фитнес-клуб - glclub.ru</h5>
-    <img src="../store/images/thumb/gl.png" class="thumb-img" alt="MQTT2MySQL"/>
+    <a class="gold" href="https://glclub.ru" target="_blank">
+    <img src="../store/images/thumb/gl.png" class="thumb-img" alt="MQTT2MySQL"/></a>
     <p><strong>Стек: </strong> ModX / Bootstrap / Fusion 360 / Sketchfab </p>
 
     <p> <strong>Роли:</strong> автор, дизайнер, разработчик </p>
