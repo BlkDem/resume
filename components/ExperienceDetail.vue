@@ -6,10 +6,45 @@
   >
 
       <h4>Основной стэк</h4>
-      <p>PHP/Laravel (REST API), VueJS/NuxtJS, NodeJS, MySQL, HTML/CSS/JS</p>
+      <ul class="font-primary-color">
+        <li>
+          PHP/Laravel (REST API)
+        </li>
+        <li>
+          VueJS/NuxtJS, NodeJS
+        </li>
+        <li>
+          MySQL, etc.
+        </li>
+        <li>
+          HTML/CSS/JS
+        </li>
+      </ul>
+      <!-- <p>, VueJS/NuxtJS, NodeJS, MySQL, HTML/CSS/JS</p> -->
 
       <h4>Дополнительно</h4>
-      <p>Git, Docker, Postman, Bootstrap, Mosquitto, Memcached</p>
+      <ul class="font-primary-color">
+        <li>
+          Git
+        </li>
+        <li>
+          Docker
+        </li>
+        <li>
+          Postman
+        </li>
+        <li>
+          Bootstrap
+        </li>
+        <li>
+          Mosquitto
+        </li>
+        <li>
+          Memcached
+        </li>
+      </ul>
+
+      <!-- <p>Git, Docker, Postman, Bootstrap, Mosquitto, Memcached</p> -->
 
       <div class="space-4"></div>
 
@@ -20,10 +55,31 @@
 
       <h4>ОС</h4>
       <p>Linux/Windows, администрирование, поддержка, серверы, сервисы на базе systemd, supervisor, forever</p>
-      <p>Windows Server, Ubuntu, CentOS</p>
+      <ul class="font-primary-color">
+        <li>
+          Windows Server
+        </li>
+        <li>
+          Ubuntu
+        </li>
+        <li>
+          CentOS
+        </li>
+      </ul>
+
+      <!-- <p>Windows Server, Ubuntu, CentOS</p> -->
 
       <h4>Виртуализация</h4>
-      <p>VPS/VDS, Hyper-V - установка, настройка, конфигурирование сервисов</p>
+      <p>Установка, настройка, конфигурирование сервисов</p>
+      <ul class="font-primary-color">
+        <li>
+          VPS/VDS
+        </li>
+        <li>
+          Hyper-V
+        </li>
+      </ul>
+
 
       <div class="space-4"></div>
 
@@ -40,5 +96,11 @@ export default {
 
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "../scss/App.scss";
+
+.font-primary-color {
+  color: $primary-color;
+}
+
 </style>
