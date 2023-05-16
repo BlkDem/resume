@@ -12,4 +12,4 @@ $ npm run generate
 
 ## View
 
-https://resume.blkdem.ru
+https://cv.blkdem.ru

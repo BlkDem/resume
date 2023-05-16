@@ -42,7 +42,7 @@ ul.cloud {
   align-items: center;
   justify-content: center;
   line-height: 2.75rem;
-  width: 450px;
+  width: 70%;
 }
 
 ul.cloud a {

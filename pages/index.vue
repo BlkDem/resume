@@ -16,7 +16,9 @@
         <h2 class="skills"> Soft Skills</h2>
 
         <SoftSkills />
+
         <SoftTeam />
+
 
 
       </div>
@@ -47,8 +49,10 @@
 
     </template>
 
-    <template v-slot:bottom>
+    <template v-slot:bottom >
       <Footer />
+
+      <TagCloud />
     </template>
 
   </MasterLayer>
@@ -72,7 +76,7 @@ import Portfolio from '../components/Portfolio.vue';
 import Intro from '../components/Intro.vue';
 import AnyProjects from '../components/Any.vue';
 import Money from '../components/Money.vue';
-// import TagCloud from '../components/TagCloud.vue';
+import TagCloud from '../components/TagCloud.vue';
 import Footer from '../components/Footer.vue';
 
 export default {
@@ -94,7 +98,7 @@ export default {
       Intro,
       AnyProjects,
       Money,
-      // TagCloud,
+      TagCloud,
       Footer,
     }
 }
