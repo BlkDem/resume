@@ -91,7 +91,7 @@
 
     <div class="p-gradient my-2"><p class="small-p">Это резюме</p></div>
     <h4>Резюме - Пятков Максим</h4>
-    <p>NuxtJS</p>
+    <p>NuxtJS / SSR</p>
     <p> <strong>Роли:</strong> автор, разработчик </p>
 
     <p class="bottom-p">
