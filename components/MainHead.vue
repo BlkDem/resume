@@ -7,7 +7,6 @@
       <p class="mx-2 media-text-center">Hardware&Software Engineer</p>
       <p class="mx-2 media-text-center pt-2">
         <a class="gold" href="/pdf/CV_PyatkovM.pdf">
-          <!-- <i class="fa-regular fa-file-pdf"></i> -->
           <font-awesome-icon icon="fa-solid fa-file-pdf" size="2xl" />
           Save PDF
         </a>

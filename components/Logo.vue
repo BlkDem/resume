@@ -1,6 +1,6 @@
 <template>
   <div class="logo-panel">
-    <img src="../store/images/maks.png" class="logo-img" alt="">
+    <img src="../store/images/me.jpg" class="logo-img" alt="">
   </div>
 </template>
 
