@@ -43,7 +43,7 @@
 
       <AnyProjects />
 
-      <TagCloud />
+      <!-- <TagCloud /> -->
 
     </template>
 
@@ -72,7 +72,7 @@ import Portfolio from '../components/Portfolio.vue';
 import Intro from '../components/Intro.vue';
 import AnyProjects from '../components/Any.vue';
 import Money from '../components/Money.vue';
-import TagCloud from '../components/TagCloud.vue';
+// import TagCloud from '../components/TagCloud.vue';
 import Footer from '../components/Footer.vue';
 
 export default {
@@ -94,7 +94,7 @@ export default {
       Intro,
       AnyProjects,
       Money,
-      TagCloud,
+      // TagCloud,
       Footer,
     }
 }

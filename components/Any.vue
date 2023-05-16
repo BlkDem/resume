@@ -15,7 +15,7 @@
     <p><strong>Стек: </strong> ModX / Pano2VR / JS </p>
 
     <p class="bottom-p"><a class="gold" href="https://gis3d.ru" target="_blank">
-        gis3d.ru
+        https://gis3d.ru
       </a>
     </p>
 
@@ -27,7 +27,7 @@
     <p> <strong>Роли:</strong> дизайнер, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://rus-mine.com" target="_blank">
-        rus-mine.com
+        https://rus-mine.com
       </a>
     </p>
 
@@ -40,7 +40,7 @@
     <p> <strong>Роли:</strong> автор, дизайнер, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://glclub.ru" target="_blank">
-        glclub.ru
+        https://glclub.ru
       </a>
     </p>
 

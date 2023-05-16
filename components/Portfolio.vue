@@ -23,7 +23,7 @@
     <p> <strong>Роли:</strong> автор, архитектор, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-lav" target="_blank">
-      Github
+        https://github.com/BlkDem/iotman-lav
       </a>
     </p>
 
@@ -43,7 +43,7 @@
     <!-- <p> <a href="https://mycase.umolab.ru/" class="gold" target="_blank">https://mycase.umolab.ru/</a></p> -->
     <p class="bottom-p">
       <a class="gold" href="https://mycase.umolab.ru/" target="_blank">
-        mycase.umolab.ru
+        https://mycase.umolab.ru
       </a>
     </p>
 
@@ -59,7 +59,7 @@
     <p> <strong>Роли:</strong> автор, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
-        Github
+        https://github.com/BlkDem/iotman-logger
       </a>
     </p>
 
@@ -74,7 +74,7 @@
     <p> <strong>Роли:</strong> автор, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
-        Github
+        https://github.com/BlkDem/u-desktop
       </a>
     </p>
 
