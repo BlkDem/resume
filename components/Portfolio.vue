@@ -96,7 +96,7 @@
 
     <p class="bottom-p">
       <a class="gold" href="https://github.com/BlkDem/resume" target="_blank">
-        Github
+        https://github.com/BlkDem/resume
       </a>
     </p>
 

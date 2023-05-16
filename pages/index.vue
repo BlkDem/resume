@@ -52,7 +52,7 @@
     <template v-slot:bottom >
       <Footer />
 
-      <TagCloud />
+      <!-- <TagCloud /> -->
     </template>
 
   </MasterLayer>
