@@ -4,7 +4,7 @@
     :color="'dark'"
     :icon="'fa-solid fa-sack-dollar'"
   >
-      <p>200 000 ₽ / 2 500 $ на руки</p>
+      <p>200 000 ₽ / 2 500 $ / 50 000 ₺</p>
 
       <div class="space-4"></div>
 

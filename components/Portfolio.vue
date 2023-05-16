@@ -56,7 +56,22 @@
     </div>
     <p><strong>Стек:</strong> NodeJS </p>
 
-    <p> <strong>Роли:</strong> автор, исполнитель </p>
+    <p> <strong>Роли:</strong> автор, разработчик </p>
+
+    <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
+        Github
+      </a>
+    </p>
+
+    <div class="w-100 h-160px">
+      <h5>u-emu</h5>
+      <a class="gold" href="https://github.com/BlkDem/u-desktop" target="_blank">
+      <img src="../store/images/thumb/u-emu.png" class="thumb-img" alt="u-emu"/></a>
+      <p> Эмулятор контроллеров Umolab Devices. Инструмент тестирования экосистемы, её сервисов, проверки устойчивости и стабильности. </p>
+    </div>
+    <p><strong>Стек:</strong> Vue / ElectronJS </p>
+
+    <p> <strong>Роли:</strong> автор, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
         Github
