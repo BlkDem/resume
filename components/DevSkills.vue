@@ -5,9 +5,9 @@
     :icon="'fa-brands fa-ubuntu'"
   >
   <ul>
-      <li>Laravel/PHP</li>
-      <li>Node.js/Express</li>
-      <li>Vue.js/Nuxt.js</li>
+      <li>Laravel / PHP</li>
+      <li>NodeJS / Express</li>
+      <li>VueJS / NuxtJS</li>
       <li>REST API</li>
       <li>LINUX</li>
     </ul>

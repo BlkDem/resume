@@ -41,9 +41,16 @@
 
       <Portfolio />
 
-      <Any />
+      <AnyProjects />
+
+      <TagCloud />
 
     </template>
+
+    <template v-slot:bottom>
+      <Footer />
+    </template>
+
   </MasterLayer>
 
 
@@ -64,7 +71,9 @@ import Languages from '../components/Languages.vue';
 import Portfolio from '../components/Portfolio.vue';
 import Intro from '../components/Intro.vue';
 import AnyProjects from '../components/Any.vue';
-import Money from '../components/Money.vue'
+import Money from '../components/Money.vue';
+import TagCloud from '../components/TagCloud.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
     name: "IndexPage",
@@ -84,7 +93,9 @@ export default {
       Portfolio,
       Intro,
       AnyProjects,
-      Money
+      Money,
+      TagCloud,
+      Footer,
     }
 }
 </script>

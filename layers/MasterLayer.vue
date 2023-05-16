@@ -13,6 +13,11 @@
       </slot>
     </div>
   </div>
+  <div class="row">
+    <slot name="bottom">
+
+    </slot>
+  </div>
 </div>
 
 </template>

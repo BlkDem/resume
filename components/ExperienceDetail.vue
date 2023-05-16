@@ -8,16 +8,16 @@
       <h4>Основной стэк</h4>
       <ul class="font-primary-color">
         <li>
-          PHP/Laravel (REST API)
+          PHP / Laravel (REST API)
         </li>
         <li>
-          VueJS/NuxtJS, NodeJS
+          VueJS / NuxtJS, NodeJS
         </li>
         <li>
           MySQL, etc.
         </li>
         <li>
-          HTML/CSS/JS
+          HTML / CSS / JavaScript / jQuery
         </li>
       </ul>
       <!-- <p>, VueJS/NuxtJS, NodeJS, MySQL, HTML/CSS/JS</p> -->
