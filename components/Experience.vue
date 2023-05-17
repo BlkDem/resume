@@ -7,8 +7,8 @@
 
       <div class="p-gradient my-2"><p class="small-p">2020-05 - now</p></div>
       <h4>Индивидуальный предприниматель</h4>
-      <p><a class="gold" href="https://umolab.ru" target="_blank">Umolab</a> - разработка электронных устройств на базе микроконтроллеров.
-        Автотюннинг, моддинг ПК, IoT, Home Automation</p>
+      <p><a class="gold" href="https://umolab.ru" target="_blank">Umolab</a> - разработка программного обеспечения и электронных устройств на базе микроконтроллеров.
+        IoT, Home Automation, автоэлектроника. ИТ-поддержка бизнеса.</p>
       <p class="bottom-p">Новосибирск, Россия</p>
 
       <div class="space-4"></div>
