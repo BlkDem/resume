@@ -5,6 +5,8 @@
     :icon="'fa-solid fa-kitchen-set'"
   >
 
+  <div class="row">
+    <div class="col-6">
       <h4>Основной стэк</h4>
       <ul class="font-primary-color">
         <li>
@@ -20,8 +22,9 @@
           HTML / CSS / JavaScript / jQuery
         </li>
       </ul>
+    </div>
       <!-- <p>, VueJS/NuxtJS, NodeJS, MySQL, HTML/CSS/JS</p> -->
-
+    <div class="col-6">
       <h4>Дополнительно</h4>
       <ul class="font-primary-color">
         <li>
@@ -43,16 +46,12 @@
           Memcached
         </li>
       </ul>
-
-      <!-- <p>Git, Docker, Postman, Bootstrap, Mosquitto, Memcached</p> -->
+    </div>
+  </div>
 
       <div class="space-4"></div>
-
-      <!-- <h4>Контроллеры</h4>
-      <p>AVR, ESP - C/C++, Arduino IDE</p>
-
-      <div class="space-4"></div> -->
-
+      <div class="row">
+      <div class="col-6">
       <h4>ОС</h4>
       <p>Linux/Windows, администрирование, поддержка, серверы, сервисы на базе systemd, supervisor, forever</p>
       <ul class="font-primary-color">
@@ -66,9 +65,10 @@
           CentOS
         </li>
       </ul>
-
+    </div>
       <!-- <p>Windows Server, Ubuntu, CentOS</p> -->
 
+      <div class="col-6">
       <h4>Виртуализация</h4>
       <p>Установка, настройка, конфигурирование сервисов</p>
       <ul class="font-primary-color">
@@ -79,6 +79,9 @@
           Hyper-V
         </li>
       </ul>
+
+    </div>
+    </div>
 
 
       <div class="space-4"></div>
