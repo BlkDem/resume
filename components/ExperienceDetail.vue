@@ -10,16 +10,16 @@
       <h4>Основной стэк</h4>
       <ul class="font-primary-color">
         <li>
-          PHP / Laravel (REST API)
+          VueJS / NuxtJS, NodeJS
         </li>
         <li>
-          VueJS / NuxtJS, NodeJS
+          PHP / Laravel (REST API)
         </li>
         <li>
           MySQL, etc.
         </li>
         <li>
-          HTML / CSS / JavaScript / jQuery
+          HTML / CSS / JavaScript
         </li>
       </ul>
     </div>
@@ -37,13 +37,7 @@
           Postman
         </li>
         <li>
-          Bootstrap
-        </li>
-        <li>
-          Mosquitto
-        </li>
-        <li>
-          Memcached
+          Bootstrap / Vuetify / Bulma
         </li>
       </ul>
     </div>
