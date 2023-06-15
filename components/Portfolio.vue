@@ -146,7 +146,7 @@ export default {
 }
 
 .h-160px {
-  height: 160px;
+  /* height: 215px; */
 }
 
 </style>

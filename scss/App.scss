@@ -1,4 +1,4 @@
-$link-color: gold;
+$link-color: rgb(234, 190, 33);
 $link-hover: goldenrod;
 $primary-color: #333;
 $white-color: white;
@@ -18,6 +18,11 @@ a{
   text-decoration: none;
   color: $link-color;
   transition: 0.3s;
+}
+
+p{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 a:hover {
@@ -61,7 +66,7 @@ h4 {
 
 h5 {
   color: $primary-color;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -119,10 +124,11 @@ ul {
 }
 
 .p-gradient {
-  background: rgb(255,234,35);
-  background: -moz-linear-gradient(90deg, rgba(255,234,35,1) 0%, rgba(248,227,59,1) 23%, rgba(255,255,255,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(255,234,35,1) 0%, rgba(248,227,59,1) 23%, rgba(255,255,255,1) 100%);
-  background: linear-gradient(90deg, rgba(255,234,35,1) 0%, rgba(248,227,59,1) 23%, rgba(255,255,255,1) 100%);
+  background: rgb(194 159 28);
+  // background: linear-gradient(90deg, rgb(194 159 28) 0%, rgb(248 202 59) 23%, rgb(255, 255, 255) 100%);
+  background: -moz-linear-gradient(90deg, rgb(234, 190, 33) 0%, rgb(248 202 59) 23%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgb(234, 190, 33) 0%, rgb(248 202 59) 23%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(90deg, rgb(234, 190, 33) 0%, rgba(248,202,59,1) 45%, rgba(255,255,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffea23",endColorstr="#ffffff",GradientType=1);
 }
 
@@ -156,5 +162,4 @@ ul {
   .bottom-p {
     font-size: 0.8rem;
   }
-
 }
