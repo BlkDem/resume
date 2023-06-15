@@ -139,7 +139,7 @@ export default {
   width: 200px;
   height: auto;
   margin-right: 8px;
-  float: left;
+  /* float: left; */
   border: 2px solid gold;
   border-radius: 8px;
   padding: 2px;
