@@ -13,22 +13,37 @@ body {
   color: $primary-color;
 }
 
-a{
-  // display: inline-block;
-  text-decoration: none;
-  color: $link-color;
-  transition: 0.3s;
-}
-
 p{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-a:hover {
+a{
+  // display: inline-block;
   text-decoration: none;
+  color: $link-color;
+  transition: all .5s;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+
+}
+
+a:hover {
   color: $link-hover;
-  transform: scale(1.05);
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+
+  to {
+    -webkit-mask-position: -50%;
+  }
 }
 
 h1 {
@@ -101,6 +116,11 @@ ul {
   font-style: italic;
   color: $white-color;
   margin: 8px 8px;
+  transition: all .5s;
+}
+
+.small-p:hover {
+  color: #333;
 }
 
 .right-p {
@@ -123,14 +143,23 @@ ul {
   justify-content: flex-end;
 }
 
+.selected-text {
+  font-weight: 700;
+}
+
 .p-gradient {
-  background: rgb(194 159 28);
+  // background: rgb(194 159 28);
   // background: linear-gradient(90deg, rgb(194 159 28) 0%, rgb(248 202 59) 23%, rgb(255, 255, 255) 100%);
   background: -moz-linear-gradient(90deg, rgb(234, 190, 33) 0%, rgb(248 202 59) 23%, rgba(255,255,255,1) 100%);
   background: -webkit-linear-gradient(90deg, rgb(234, 190, 33) 0%, rgb(248 202 59) 23%, rgba(255,255,255,1) 100%);
   background: linear-gradient(90deg, rgb(234, 190, 33) 0%, rgba(248,202,59,1) 45%, rgba(255,255,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffea23",endColorstr="#ffffff",GradientType=1);
+  transition: all .5s;
 }
+
+// .p-gradient:hover {
+//   // background-position: 10px;
+// }
 
 .fas .fab {
   color: $link-color;
@@ -152,7 +181,7 @@ ul {
   }
 
   .media-text-center {
-    text-align: left;
+    text-align: center;
   }
 
   .flex-right {

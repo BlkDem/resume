@@ -5,12 +5,12 @@
         Максим Пятков
       </h1>
       <p class="mx-2 media-text-center">Hardware&Software Engineer</p>
-      <p class="mx-2 media-text-center pt-2">
+      <!-- <p class="mx-2 media-text-center pt-2">
         <a class="gold" href="/pdf/CV_PyatkovM.pdf">
           <font-awesome-icon icon="fa-solid fa-file-pdf" size="2xl" />
           Save PDF
         </a>
-      </p>
+      </p> -->
     </div>
     <div class="col-md-6 p-4 font-2x">
       <div class="icon-social">

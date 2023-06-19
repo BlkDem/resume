@@ -19,6 +19,18 @@
       </a>
     </p>
 
+    <h5>Кофейный автомат - coffeemat.vercel.app</h5>
+    <a class="gold" href="https://coffeemat.vercel.app" target="_blank">
+    <img src="../store/images/thumb/coffeemat.png" class="thumb-img" alt="gis3d.ru"/></a>
+    <p>Кофейный автомат - вебинтерфейс + эмулятор.</p>
+    <p> <strong>Роли:</strong> разработчик </p>
+    <p><strong>Стек: </strong> Vue / TS </p>
+
+    <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/coffeemat" target="_blank">
+        https://github.com/BlkDem/coffeemat
+      </a>
+    </p>
+
     <div class="space-4"></div>
     <h5>Магазин поставщика промышленного оборудования - rus-mine.com</h5>
     <a class="gold" href="https://rus-mine.com" target="_blank">

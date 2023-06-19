@@ -4,10 +4,10 @@
     :card-caption="'Management'"
     :icon="'fa-solid fa-user-tie'"
   >
-  <ul>
+    <ul>
+      <li>Vue.js/Nuxt.js</li>
       <li>Laravel/PHP</li>
       <li>Node.js/Express</li>
-      <li>Vue.js/Nuxt.js</li>
       <li>REST API</li>
       <li>LINUX</li>
     </ul>
@@ -18,7 +18,7 @@
 
 import BaseCard from './BaseCard.vue';
 export default {
-  comments: {BaseCard}
+  components: {BaseCard}
 }
 
 </script>

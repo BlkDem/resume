@@ -145,8 +145,5 @@ export default {
   padding: 2px;
 }
 
-.h-160px {
-  /* height: 215px; */
-}
 
 </style>
