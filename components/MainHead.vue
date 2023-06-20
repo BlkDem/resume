@@ -1,11 +1,11 @@
 <template>
   <div class="row space-bottom-8">
-    <div class="col-md-6">
+    <div class="col-md-6 media-text-center">
       <h1 class="w-100 p-2">
         Максим Пятков
       </h1>
-      <p class="mx-2 media-text-center">Hardware&Software Engineer</p>
-      <p class="mx-2 media-text-center pt-2">
+      <p class="mx-2">Hardware&Software Engineer</p>
+      <p class="mx-2 pt-2">
         <a class="gold" href="/pdf/CV_PyatkovM.pdf">
           <font-awesome-icon icon="fa-solid fa-file-pdf" size="2xl" />
           Save PDF
