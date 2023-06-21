@@ -45,6 +45,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    '@sidebase/nuxt-pdf',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

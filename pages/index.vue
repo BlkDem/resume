@@ -1,4 +1,8 @@
 <template>
+  <div ref="pdfSection">
+    <!-- <button @click="exportToPDF('my-pdf-file.pdf', pdfSection)">
+      print card
+    </button> -->
   <MasterLayer>
 
     <template v-slot:left>
@@ -56,11 +60,11 @@
     </template>
 
   </MasterLayer>
-
+</div>
 
 </template>
 
-<script>
+<script setup>
 import MasterLayer from '../layers/MasterLayer.vue';
 import Logo from '../components/Logo.vue'
 import Software from '../components/DevSkills.vue'
@@ -76,32 +80,39 @@ import Portfolio from '../components/Portfolio.vue';
 import Intro from '../components/Intro.vue';
 import AnyProjects from '../components/Any.vue';
 import Money from '../components/Money.vue';
-import TagCloud from '../components/TagCloud.vue';
+// import TagCloud from '../components/TagCloud.vue';
 import Footer from '../components/Footer.vue';
 
-export default {
-    name: "IndexPage",
+// import { ref } from 'vue'
+// import { exportToPDF } from 'nuxt-pdf'
+// const pdfSection = ref<HTMLElement | null>(null)
 
-    components: {
-      MasterLayer,
-      Logo,
-      Software,
-      Hardware,
-      SoftSkills,
-      SoftTeam,
-      MainHead,
-      Experience,
-      ExperienceDetail,
-      Education,
-      Languages,
-      Portfolio,
-      Intro,
-      AnyProjects,
-      Money,
-      TagCloud,
-      Footer,
-    }
-}
+
+
+// export default {
+//     name: "IndexPage",
+
+//     components: {
+//       MasterLayer,
+//       Logo,
+//       Software,
+//       Hardware,
+//       SoftSkills,
+//       SoftTeam,
+//       MainHead,
+//       Experience,
+//       ExperienceDetail,
+//       Education,
+//       Languages,
+//       Portfolio,
+//       Intro,
+//       AnyProjects,
+//       Money,
+//       TagCloud,
+//       Footer,
+//     },
+
+// }
 </script>
 
 <style lang="scss">
