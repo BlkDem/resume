@@ -10,7 +10,7 @@
       <h4>Основной стэк</h4>
       <ul class="font-primary-color">
         <li>
-          VueJS / NuxtJS, NodeJS
+          VueJS / NuxtJS / NodeJS
         </li>
         <li>
           PHP / Laravel (REST API)
