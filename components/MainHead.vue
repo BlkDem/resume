@@ -5,7 +5,9 @@
         Максим Пятков
       </h1>
       <p class="mx-2">Hardware&Software Engineer</p>
-      <p class="mx-2 pt-2">
+      <p class="mx-2 pt-2" @dblclick="HideLink"
+        :class="{'js-hidelink': isHideLink}"
+      >
         <a class="gold" href="/pdf/CV_PyatkovM.pdf">
           <font-awesome-icon icon="fa-solid fa-file-pdf" size="2xl" />
           Save PDF
@@ -54,7 +56,20 @@
   </div>
 </template>
 
-<script>
+<script setup>
+
+import { onMounted, ref } from 'vue';
+
+let isHideLink = ref(false);
+
+function HideLink() {
+  isHideLink.value = !isHideLink.value;
+  console.log(isHideLink.value);
+}
+
+onMounted( () => {
+  console.log('BlkDem`s CV v 2.0.1');
+})
 
 </script>
 
@@ -76,6 +91,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.js-hidelink {
+  display: none;
 }
 
 </style>

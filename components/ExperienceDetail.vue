@@ -7,10 +7,10 @@
 
   <div class="row">
     <div class="col-6">
-      <h4>Основной стэк</h4>
+      <!-- <h4>Основной стэк</h4> -->
       <ul class="font-primary-color">
         <li>
-          VueJS / NuxtJS / NodeJS
+          VueJS (Vue-router, Vuex) / NuxtJS / NodeJS
         </li>
         <li>
           PHP / Laravel (REST API)
@@ -19,13 +19,16 @@
           MySQL, etc.
         </li>
         <li>
-          HTML / CSS / JavaScript
+          HTML / CSS / SCSS / SASS
+        </li>
+        <li>
+          Bootstrap / Vuetify / Bulma
         </li>
       </ul>
     </div>
       <!-- <p>, VueJS/NuxtJS, NodeJS, MySQL, HTML/CSS/JS</p> -->
     <div class="col-6">
-      <h4>Дополнительно</h4>
+      <!-- <h4>Дополнительно</h4> -->
       <ul class="font-primary-color">
         <li>
           Git
@@ -37,7 +40,7 @@
           Postman
         </li>
         <li>
-          Bootstrap / Vuetify / Bulma
+          Linux
         </li>
       </ul>
     </div>

@@ -11,11 +11,11 @@
 
       <div class="media-hide">
 
-        <h2 class="skills"> Prof Skills</h2>
+        <!-- <h2 class="skills"> Prof Skills</h2>
 
         <Software />
 
-        <Hardware />
+        <Hardware /> -->
 
         <h2 class="skills"> Soft Skills</h2>
 

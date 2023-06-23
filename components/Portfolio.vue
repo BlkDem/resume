@@ -47,7 +47,7 @@
       </a>
     </p>
 
-    <div class="w-100 h-160px">
+    <!-- <div class="w-100 h-160px">
       <h5>u-device-front</h5>
       <a class="gold" href="https://github.com/BlkDem/u-device-front" target="_blank">
       <img src="../store/images/thumb/udc_s1.png" class="thumb-img" alt="u-device-front"/></a>
@@ -75,7 +75,7 @@
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
         https://github.com/BlkDem/iotman-logger
       </a>
-    </p>
+    </p> -->
 
     <div class="w-100 h-160px">
       <h5>u-emu</h5>
