@@ -45,6 +45,8 @@
 
       <Languages />
 
+      <LastTimes />
+
       <Portfolio />
 
       <AnyProjects />
@@ -80,6 +82,7 @@ import Portfolio from '../components/Portfolio.vue';
 import Intro from '../components/Intro.vue';
 import AnyProjects from '../components/Any.vue';
 import Money from '../components/Money.vue';
+import LastTimes from '../components/LastTimes.vue';
 // import TagCloud from '../components/TagCloud.vue';
 import Footer from '../components/Footer.vue';
 

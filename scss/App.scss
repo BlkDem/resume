@@ -86,8 +86,15 @@ h5 {
 }
 
 ul {
-  list-style: circle;
+  list-style: none;
   color: $white-silver;
+}
+
+li::before {
+  content: "✦";
+  margin-left: -28px;
+  margin-right: 8px;
+  color: $link-color;
 }
 
 .skills {
@@ -141,6 +148,10 @@ ul {
 .flex-right {
   display: flex;
   justify-content: flex-end;
+}
+
+.font-primary-color {
+  color: #333;
 }
 
 .selected-text {

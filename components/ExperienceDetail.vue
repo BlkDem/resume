@@ -1,6 +1,6 @@
 <template>
   <BaseCard
-    :card-caption="'Навыки'"
+    :card-caption="'Основной стэк'"
     :color="'dark'"
     :icon="'fa-solid fa-kitchen-set'"
   >

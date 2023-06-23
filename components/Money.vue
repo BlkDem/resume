@@ -4,7 +4,11 @@
     :color="'dark'"
     :icon="'fa-solid fa-sack-dollar'"
   >
-      <p>170 000 ₽ / 2 000 $ / 50 000 ₺</p>
+  <ul class="font-primary-color">
+    <li>
+      170 000 ₽ / 2 000 $ / 50 000 ₺
+    </li>
+  </ul>
 
       <div class="space-4"></div>
 

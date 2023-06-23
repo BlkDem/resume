@@ -7,8 +7,21 @@
 
       <div class="p-gradient my-2"><p class="small-p">2020-05 - now</p></div>
       <h4>Индивидуальный предприниматель</h4>
-      <p><a class="gold" href="https://umolab.ru" target="_blank">Umolab</a> - разработка программного обеспечения и электронных устройств на базе микроконтроллеров.
-        IoT, Home Automation, автоэлектроника. ИТ-поддержка бизнеса.</p>
+      <p>Компания <a class="gold" href="https://umolab.ru" target="_blank">"Umolab"</a></p>
+        <ul class="font-primary-color">
+          <li>
+            Разработка программного обеспечения IoT
+          </li>
+          <li>
+            Home Automation
+          </li>
+          <li>
+            Автоэлектроника
+          </li>
+          <li>
+            ИТ-поддержка бизнеса
+          </li>
+        </ul>
       <p class="bottom-p">Новосибирск, Россия</p>
 
       <div class="space-4"></div>
