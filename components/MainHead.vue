@@ -4,7 +4,7 @@
       <h1 class="w-100 p-2">
         Максим Пятков
       </h1>
-      <p class="mx-2">Software Engineer</p>
+      <!-- <p class="mx-2">Software Engineer</p> -->
       <p class="mx-2 pt-2" @dblclick="HideLink"
         :class="{'js-hidelink': isHideLink}"
       >

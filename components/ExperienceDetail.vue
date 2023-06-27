@@ -46,39 +46,39 @@
     </div>
   </div>
 
-      <div class="space-4"></div>
+      <!-- <div class="space-4"></div>
       <div class="row">
-      <div class="col-6">
-      <h4>ОС</h4>
-      <p>Linux/Windows, администрирование, поддержка, серверы, сервисы на базе systemd, supervisor, forever</p>
-      <ul class="font-primary-color">
-        <li>
-          Windows Server
-        </li>
-        <li>
-          Ubuntu
-        </li>
-        <li>
-          CentOS
-        </li>
-      </ul>
-    </div>
-      <!-- <p>Windows Server, Ubuntu, CentOS</p> -->
+        <div class="col-6">
+          <h4>ОС</h4>
+          <p>Linux/Windows, администрирование, поддержка, серверы, сервисы на базе systemd, supervisor, forever</p>
+          <ul class="font-primary-color">
+            <li>
+              Windows Server
+            </li>
+            <li>
+              Ubuntu
+            </li>
+            <li>
+              CentOS
+            </li>
+          </ul>
+        </div>
+         <p>Windows Server, Ubuntu, CentOS</p>
 
-      <div class="col-6">
-      <h4>Виртуализация</h4>
-      <p>Установка, настройка, конфигурирование сервисов</p>
-      <ul class="font-primary-color">
-        <li>
-          VPS/VDS
-        </li>
-        <li>
-          Hyper-V
-        </li>
-      </ul>
+        <div class="col-6">
+          <h4>Виртуализация</h4>
+          <p>Установка, настройка, конфигурирование сервисов</p>
+          <ul class="font-primary-color">
+            <li>
+              VPS/VDS
+            </li>
+            <li>
+              Hyper-V
+            </li>
+          </ul>
 
-    </div>
-    </div>
+        </div>
+      </div> -->
 
 
       <div class="space-4"></div>
