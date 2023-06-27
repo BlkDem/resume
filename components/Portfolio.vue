@@ -102,7 +102,7 @@
         Github
       </a>
     </p> -->
-
+<!--
     <div class="p-gradient my-2"><p class="small-p">Это резюме</p></div>
     <h4>Резюме - Пятков Максим</h4>
     <a class="gold " href="https://github.com/BlkDem/resume" target="_blank">
@@ -118,7 +118,7 @@
     </p><br/>
 
     <div class="space-4"></div>
-    <div class="space-4"></div>
+    <div class="space-4"></div> -->
 
   </BaseCard>
 

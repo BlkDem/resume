@@ -1,6 +1,6 @@
 <template>
   <BaseCard
-    :card-caption="'Интро'"
+    :card-caption="'Обо мне'"
     :color="'dark'"
     :icon="'fa-solid fa-envelope-open-text'"
   >

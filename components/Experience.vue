@@ -6,20 +6,14 @@
   >
 
       <div class="p-gradient my-2"><p class="small-p">2020-05 - now</p></div>
-      <h4>Индивидуальный предприниматель</h4>
+      <h4>Руководитель компании, инженер-разработчик</h4>
       <p>Компания <a class="gold" href="https://umolab.ru" target="_blank">"Umolab"</a></p>
         <ul class="font-primary-color">
           <li>
-            Разработка программного обеспечения IoT
+            Разработка программного обеспечения
           </li>
           <li>
-            Home Automation
-          </li>
-          <li>
-            Автоэлектроника
-          </li>
-          <li>
-            ИТ-поддержка бизнеса
+            IoT, Home Automation
           </li>
         </ul>
       <p class="bottom-p">Новосибирск, Россия</p>

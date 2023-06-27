@@ -45,7 +45,7 @@
 
       <Languages />
 
-      <LastTimes />
+      <!-- <LastTimes /> -->
 
       <Portfolio />
 
