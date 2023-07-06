@@ -49,7 +49,7 @@
 
       <Portfolio />
 
-      <AnyProjects />
+      <!-- <AnyProjects /> -->
 
       <!-- <TagCloud /> -->
 

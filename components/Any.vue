@@ -5,7 +5,7 @@
     :icon="'fa-solid fa-briefcase'"
   >
 
-    <h5>Городской проект - gis3d.ru</h5>
+    <!-- <h5>Городской проект - gis3d.ru</h5>
     <a class="gold" href="https://gis3d.ru" target="_blank">
     <img src="../store/images/thumb/gis3d.png" class="thumb-img" alt="gis3d.ru"/></a>
     <p> Геоинформационная система. Город снимается мультиротором (квадрокоптером) с заданной высоты.
@@ -17,7 +17,7 @@
     <p class="bottom-p"><a class="gold" href="https://gis3d.ru" target="_blank">
         https://gis3d.ru
       </a>
-    </p>
+    </p> -->
 
     <h5>Кофейный автомат - coffeemat.vercel.app</h5>
     <a class="gold" href="https://coffeemat.vercel.app" target="_blank">
@@ -31,7 +31,7 @@
       </a>
     </p>
 
-    <div class="space-4"></div>
+    <!-- <div class="space-4"></div>
     <h5>Магазин поставщика промышленного оборудования - rus-mine.com</h5>
     <a class="gold" href="https://rus-mine.com" target="_blank">
     <img src="../store/images/thumb/rm.png" class="thumb-img" alt="rus-mine.com"/></a>
@@ -54,7 +54,7 @@
     <p class="bottom-p"><a class="gold" href="https://glclub.ru" target="_blank">
         https://glclub.ru
       </a>
-    </p>
+    </p> -->
 
   </BaseCard>
 
