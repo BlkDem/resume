@@ -13,11 +13,11 @@
           VueJS (Vue-router, Vuex) / NuxtJS / NodeJS
         </li>
         <li>
-          PHP / Laravel (REST API)
+          PHP / Laravel (REST API) / MySQL
         </li>
-        <li>
-          MySQL, etc.
-        </li>
+        <!-- <li>
+          MySQL
+        </li> -->
         <li>
           HTML / CSS / SCSS / SASS
         </li>
