@@ -5,8 +5,8 @@
     :icon="'fa-solid fa-person-digging'"
   >
 
-      <div class="p-gradient my-2"><p class="small-p">2020-05 - now</p></div>
-      <h4>Руководитель компании, инженер-разработчик</h4>
+      <div class="p-gradient my-2"><p class="small-p">2018-05 - now</p></div>
+      <h4>Инженер-разработчик (Fullstack)</h4>
       <p>Компания <a class="gold" href="https://umolab.ru" target="_blank">"Umolab"</a></p>
         <ul class="font-primary-color">
           <li>
