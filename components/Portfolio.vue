@@ -27,6 +27,11 @@
       </a>
     </p>
 
+    <p class="bottom-p"><a class="gold" href="https://iotman.blkdem.ru" target="_blank">
+        https://iotman.blkdem.ru
+      </a>
+    </p>
+
     <div class="space-4"></div>
       <h4>Приложения экосистемы Umolab Devices</h4>
     <div class="space-4"></div>
@@ -44,6 +49,33 @@
     <p class="bottom-p">
       <a class="gold" href="https://mycase.umolab.ru/" target="_blank">
         https://mycase.umolab.ru
+      </a>
+    </p>
+
+    <h5>Supertod.ru</h5>
+    <a class="gold" href="https://supertod.ru/" target="_blank">
+    <img src="../store/images/thumb/st.png" class="thumb-img" alt="3D conf"/></a>
+    <p> Промо страница интернет магазина устройств Umolab Group</p>
+    <p> <strong>Стек:</strong> Nuxt <br/>
+
+    <strong>Роли:</strong> разработчик </p>
+
+    <!-- <p> <a href="https://mycase.umolab.ru/" class="gold" target="_blank">https://mycase.umolab.ru/</a></p> -->
+    <p class="bottom-p">
+      <a class="gold" href="https://github.com/BlkDem/supertod2" target="_blank">
+        https://github.com/BlkDem/supertod2
+      </a>
+    </p>
+
+    <p class="bottom-p">
+      <a class="gold" href="https://supertod.ru" target="_blank">
+        Промо: https://supertod.ru
+      </a>
+    </p>
+
+    <p class="bottom-p">
+      <a class="gold" href="https://umolab-devices.com" target="_blank">
+        Магазин: https://umolab-devices.com
       </a>
     </p>
 
