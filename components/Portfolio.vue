@@ -61,7 +61,7 @@
     <img src="../store/images/thumb/mycase1.png" class="thumb-img" alt="3D conf"/></a>
     <p> Витрина корпусов из акрила и пластика с облачными контроллерами Umolab Devices</p>
     <p> Клиенту предлагается самому выбрать дизайн для заказа.</p>
-    <p> <strong>Стек:</strong> ModX / Fusion 360 / Blender / Verge3D / JS <br/>
+    <p> <strong>Стэк:</strong> ModX / Fusion 360 / Blender / Verge3D / JS <br/>
 
     <strong>Роли:</strong> 3D-дизайнер, разработчик </p>
 
@@ -75,7 +75,7 @@
     <a class="gold" href="https://supertod.ru/" target="_blank">
     <img src="../store/images/thumb/st.png" class="thumb-img" alt="3D conf"/></a>
     <p> Промо страница интернет магазина устройств Umolab Group</p>
-    <p> <strong>Стек:</strong> Nuxt <br/>
+    <p> <strong>Стэк:</strong> Nuxt <br/>
 
     <strong>Роли:</strong> разработчик </p>
 
@@ -104,7 +104,7 @@
       <p> Web-интерфейс для сонтроллеров Umolab Devices серии "Standart". Управление зонами освещения, сохранение пресетов.</p>
     </div>
     <p><strong>Платформа:</strong> ESP 82xx <br/>
-    <strong>Стек:</strong> Vue / Bulma (CSS) </p>
+    <strong>Стэк:</strong> Vue / Bulma (CSS) </p>
 
     <p> <strong>Роли:</strong> автор, разработчик </p>
 
@@ -119,7 +119,7 @@
       <img src="../store/images/thumb/mqtt.png" class="thumb-img" alt="MQTT2MySQL"/></a>
       <p> Журналирование работы устройств Umolab. Мост MQTT -> MySQL </p>
     </div>
-    <p><strong>Стек:</strong> NodeJS / Forever<br/>
+    <p><strong>Стэк:</strong> NodeJS / Forever<br/>
 
     <strong>Роли:</strong> автор, разработчик </p>
 
@@ -134,7 +134,7 @@
       <img src="../store/images/thumb/u-emu.png" class="thumb-img" alt="u-emu"/></a>
       <p> Эмулятор контроллеров Umolab Devices. Инструмент тестирования экосистемы, её сервисов, проверки устойчивости и стабильности. </p>
     </div>
-    <p><strong>Стек:</strong> Vue / ElectronJS <br/>
+    <p><strong>Стэк:</strong> Vue / ElectronJS <br/>
 
     <strong>Роли:</strong> автор, разработчик </p>
 
