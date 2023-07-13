@@ -4,7 +4,7 @@
     :card-caption="'Team player'"
     :icon="'fa-brands fa-ubuntu'"
   >
-  <ul>
+  <ul class="light-text-ul">
 
       <li>Ответственность за результат</li>
       <li>Целеустремленность</li>

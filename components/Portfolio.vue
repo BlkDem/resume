@@ -6,21 +6,41 @@
   >
 
     <div class="p-gradient my-2"><p class="small-p">Текущий рабочий проект</p></div>
-    <h4>IoTman - Umolab Device Manager</h4>
+    <h4>Umolab QRM (Quick Response Manufacturing)</h4>
 
     <a class="gold" href="https://iotman.blkdem.ru" target="_blank">
     <img src="../store/images/thumb/iotman1.png" class="thumb-img" alt="Iotman"></a>
 
-    <p><a class="gold" href="https://iotman.blkdem.ru" target="_blank">IoTman</a> - регистрация, конфигурирование
-      устройств,
-      разрабатываемых компанией <a class="gold" href="https://umolab.ru" target="_blank">Umolab</a><br>
-      Регистрация пользователей. Мониторинг и журналирование работы устройств.
+    <p>
+      <h6>Производство</h6>
+      <ul>
+        <li>Работа с каталогом производимой продукции</li>
+        <li>Ввод в эксплуатацию производимого оборудования и компонентов</li>
+        <li>Монитор сборки</li>
+      </ul>
+      <h6>Торговля</h6>
+      <ul>
+        <li>Регистрация продукции на витрине</li>
+        <li>Регистрация пользовательского оборудования</li>
+        <li>Установка цен на производимую продукцию</li>
+      </ul>
+      <h6>Безопасность</h6>
+      <ul>
+        <li>Регистрация пользователей</li>
+        <li>Определение ролей и разрешений</li>
+        <li>Блокировка таблиц и записей</li>
+      </ul>
+      <h6>Управление оборудованием</h6>
+      <ul>
+        <li>Регистрация оборудования в инфраструктуре</li>
+        <li>Мониторинг работы устройств</li>
+      </ul>
     </p>
 
-    <p> <strong> Бэкэнд: </strong> Laravel / PHP <br/>
-    <strong> Фронтэнд: </strong> Vue / Bootstrap / Bootswatch Theming <br/>
+    <p> <strong> Бэкэнд: </strong> Laravel <br/>
+    <strong> Фронтэнд: </strong> Vue / Bootstrap <br/>
 
-    <strong>Роли:</strong> автор, архитектор, разработчик </p>
+    <strong>Роли:</strong> архитектор, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-lav" target="_blank">
         https://github.com/BlkDem/iotman-lav
@@ -33,19 +53,18 @@
     </p>
 
     <div class="space-4"></div>
-      <h4>Приложения экосистемы Umolab Devices</h4>
+      <h4>Приложения экосистемы Umolab</h4>
     <div class="space-4"></div>
 
     <h5>3D конфигуратор - витрина</h5>
     <a class="gold" href="https://mycase.umolab.ru/" target="_blank">
     <img src="../store/images/thumb/mycase1.png" class="thumb-img" alt="3D conf"/></a>
-    <p> Интернет магазин устройств Umolab Devices - дизайн устройства.</p>
-    <p> Клиенту предлагается самому выбрать внешний вид устройства и сделать заказ.</p>
+    <p> Витрина корпусов из акрила и пластика с облачными контроллерами Umolab Devices</p>
+    <p> Клиенту предлагается самому выбрать дизайн для заказа.</p>
     <p> <strong>Стек:</strong> ModX / Fusion 360 / Blender / Verge3D / JS <br/>
 
-    <strong>Роли:</strong> автор, 3D-дизайнер, разработчик </p>
+    <strong>Роли:</strong> 3D-дизайнер, разработчик </p>
 
-    <!-- <p> <a href="https://mycase.umolab.ru/" class="gold" target="_blank">https://mycase.umolab.ru/</a></p> -->
     <p class="bottom-p">
       <a class="gold" href="https://mycase.umolab.ru/" target="_blank">
         https://mycase.umolab.ru
@@ -60,7 +79,6 @@
 
     <strong>Роли:</strong> разработчик </p>
 
-    <!-- <p> <a href="https://mycase.umolab.ru/" class="gold" target="_blank">https://mycase.umolab.ru/</a></p> -->
     <p class="bottom-p">
       <a class="gold" href="https://github.com/BlkDem/supertod2" target="_blank">
         https://github.com/BlkDem/supertod2
@@ -94,20 +112,21 @@
         https://github.com/BlkDem/u-device-front
       </a>
     </p>
+  -->
     <div class="w-100 h-160px">
-      <h5>MQTT2MySQL Logger</h5>
+      <h5>MQTT2MySQL</h5>
       <a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
       <img src="../store/images/thumb/mqtt.png" class="thumb-img" alt="MQTT2MySQL"/></a>
-      <p> Принимаем данные сервиса MQTT, преобразовываем в нужный формат и записываем в БД. </p>
+      <p> Журналирование работы устройств Umolab. Мост MQTT -> MySQL </p>
     </div>
-    <p><strong>Стек:</strong> NodeJS <br/>
+    <p><strong>Стек:</strong> NodeJS / Forever<br/>
 
     <strong>Роли:</strong> автор, разработчик </p>
 
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
         https://github.com/BlkDem/iotman-logger
       </a>
-    </p> -->
+    </p>
 
     <div class="w-100 h-160px">
       <h5>u-emu</h5>
@@ -123,34 +142,10 @@
         https://github.com/BlkDem/u-desktop
       </a>
     </p>
-
-
-
-    <!-- <h5>Shop</h5>
-    <p> Интернет магазин устройств Umolab Devices - бэкэнд</p>
-    <p> NodeJS / Express / MySQL - MVC</p>
-    <p class="bottom-p">
-      <a class="gold" href="https://github.com/BlkDem/umolab-shop-backend" target="_blank">
-        Github
+    <p class="bottom-p"><a class="gold" href="https://u-desktop.umolab.ru/" target="_blank">
+        https://u-desktop.umolab.ru/
       </a>
-    </p> -->
-<!--
-    <div class="p-gradient my-2"><p class="small-p">Это резюме</p></div>
-    <h4>Резюме - Пятков Максим</h4>
-    <a class="gold " href="https://github.com/BlkDem/resume" target="_blank">
-      <img src="../store/images/thumb/cv.png" class="thumb-img" alt="u-emu"/></a>
-
-    <p class="my-2"><strong>Стек: </strong>NuxtJS / SSR <br/>
-    <strong>Роли: </strong> автор, разработчик </p>
-
-    <p class="bottom-p">
-      <a class="gold" href="https://github.com/BlkDem/resume" target="_blank">
-        https://github.com/BlkDem/resume
-      </a>
-    </p><br/>
-
-    <div class="space-4"></div>
-    <div class="space-4"></div> -->
+    </p>
 
   </BaseCard>
 
@@ -165,8 +160,8 @@ export default {
 
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+@import "../scss/App.scss";
 .thumb-img {
   width: 200px;
   height: auto;

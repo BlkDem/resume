@@ -1,6 +1,6 @@
 <template>
   <div class="m-2">
-    <div class="skills-panel">
+    <div class="default-panel">
       <div class="mb-4">
         <h3 :class="{'light-color': color==='light', 'dark-color': color==='dark'}">
           <!-- <img src="../store/images/list.png" class="card-item-image" alt=""> -->

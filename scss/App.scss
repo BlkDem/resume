@@ -75,19 +75,36 @@ h3 {
 
 h4 {
   color: $primary-color;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 h5 {
   color: $primary-color;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
+  font-weight: 700;
+}
+
+h6, .h6 {
+  font-size: 1.1rem;
   font-weight: 700;
 }
 
 ul {
   list-style: none;
   color: $white-silver;
+}
+
+li {
+  color: $primary-color;
+}
+
+.skills-panel li {
+  color: $white-silver;
+}
+
+.default-panel li {
+  color: $primary-color;
 }
 
 li::before {
@@ -156,6 +173,10 @@ li::before {
 
 .selected-text {
   font-weight: 700;
+}
+
+.light-text-ul li {
+  color: $white-silver;
 }
 
 .p-gradient {

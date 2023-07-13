@@ -4,7 +4,7 @@
     :card-caption="'Self-management'"
     :icon="'fa-brands fa-ubuntu'"
   >
-  <ul>
+  <ul class="light-text-ul">
       <li>Работоспособность</li>
       <li>Самомотивация</li>
       <li>Постановка целей</li>
