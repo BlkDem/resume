@@ -38,7 +38,7 @@
     </p>
 
     <p> <strong> Бэкэнд: </strong> Laravel <br/>
-    <strong> Фронтэнд: </strong> Vue / Bootstrap <br/>
+    <strong> Фронтэнд: </strong> Vue (Vuex, Vue-router) / Bootstrap <br/>
 
     <strong>Роли:</strong> архитектор, разработчик </p>
 

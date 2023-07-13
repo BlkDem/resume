@@ -6,7 +6,7 @@
   >
 
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <!-- <h4>Основной стэк</h4> -->
       <ul class="font-primary-color">
         <li>
@@ -27,7 +27,7 @@
       </ul>
     </div>
       <!-- <p>, VueJS/NuxtJS, NodeJS, MySQL, HTML/CSS/JS</p> -->
-    <div class="col-6">
+    <div class="col-md-6">
       <!-- <h4>Дополнительно</h4> -->
       <ul class="font-primary-color">
         <li>
