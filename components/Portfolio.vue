@@ -16,7 +16,7 @@
       <ul>
         <li>Работа с каталогом производимой продукции</li>
         <li>Ввод в эксплуатацию производимого оборудования и компонентов</li>
-        <li>Процесс сборки. POLCA</li>
+        <li>QRM - POLCA</li>
       </ul>
       <h6>Торговля</h6>
       <ul>
@@ -36,11 +36,11 @@
       </ul>
     </p>
 
-    <p> <strong> Бэкэнд: </strong> Laravel <br/>
-    <strong> Фронтэнд: </strong> Vue (Vuex, Vue-router) / Bootstrap <br/>
-
-    <strong>Роли:</strong> архитектор, разработчик </p>
-
+    <blockquote>
+      <p> <strong> Бэкэнд: </strong> Laravel <br/>
+      <strong> Фронтэнд: </strong> Vue (Vuex, Vue-router) / Bootstrap <br/>
+      <strong>Роли:</strong> архитектор, разработчик </p>
+      </blockquote>
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-lav" target="_blank">
         https://github.com/BlkDem/iotman-lav
       </a>
@@ -60,10 +60,12 @@
     <img src="../store/images/thumb/mycase1.png" class="thumb-img" alt="3D conf"/></a>
     <p> Витрина корпусов из акрила и пластика с облачными контроллерами Umolab Devices</p>
     <p> Клиенту предлагается самому выбрать дизайн для заказа.</p>
-    <p> <strong>Стэк:</strong> ModX / Fusion 360 / Blender / Verge3D / JS <br/>
-
-    <strong>Роли:</strong> 3D-дизайнер, разработчик </p>
-
+    <blockquote>
+      <p>
+        <strong>Стэк:</strong> ModX / Fusion 360 / Blender / Verge3D / JS <br/>
+        <strong>Роли:</strong> 3D-дизайнер, разработчик
+      </p>
+    </blockquote>
     <p class="bottom-p">
       <a class="gold" href="https://mycase.umolab.ru/" target="_blank">
         https://mycase.umolab.ru
@@ -74,10 +76,11 @@
     <a class="gold" href="https://supertod.ru/" target="_blank">
     <img src="../store/images/thumb/st.png" class="thumb-img" alt="3D conf"/></a>
     <p> Промо страница интернет магазина устройств Umolab Group</p>
-    <p> <strong>Стэк:</strong> Nuxt <br/>
-
-    <strong>Роли:</strong> разработчик </p>
-
+    <blockquote>
+      <p> <strong>Стэк:</strong> Nuxt (SSG)<br/>
+        <strong>Роли:</strong> разработчик
+      </p>
+    </blockquote>
     <p class="bottom-p">
       <a class="gold" href="https://github.com/BlkDem/supertod2" target="_blank">
         https://github.com/BlkDem/supertod2
@@ -118,10 +121,11 @@
       <img src="../store/images/thumb/mqtt.png" class="thumb-img" alt="MQTT2MySQL"/></a>
       <p> Журналирование работы устройств Umolab. Мост MQTT -> MySQL </p>
     </div>
-    <p><strong>Стэк:</strong> NodeJS / Forever<br/>
-
-    <strong>Роли:</strong> автор, разработчик </p>
-
+    <blockquote>
+      <p><strong>Стэк:</strong> NodeJS / Forever<br/>
+        <strong>Роли:</strong> автор, разработчик
+      </p>
+    </blockquote>
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
         https://github.com/BlkDem/iotman-logger
       </a>
@@ -133,10 +137,11 @@
       <img src="../store/images/thumb/u-emu.png" class="thumb-img" alt="u-emu"/></a>
       <p> Эмулятор контроллеров Umolab Devices. Инструмент тестирования экосистемы, её сервисов, проверки устойчивости и стабильности. </p>
     </div>
-    <p><strong>Стэк:</strong> Vue / ElectronJS <br/>
-
-    <strong>Роли:</strong> автор, разработчик </p>
-
+    <blockquote>
+      <p><strong>Стэк:</strong> Vue / ElectronJS <br/>
+        <strong>Роли:</strong> автор, разработчик
+      </p>
+    </blockquote>
     <p class="bottom-p"><a class="gold" href="https://github.com/BlkDem/u-desktop" target="_blank">
         https://github.com/BlkDem/u-desktop
       </a>

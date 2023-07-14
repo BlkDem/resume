@@ -1,6 +1,6 @@
 <template>
   <div class="w-100 text-center my-2 back-gradient text-white">
-    BlkDem &copy; 2023
+    BlkDem &copy;2023
   </div>
 </template>
 

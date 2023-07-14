@@ -197,6 +197,17 @@ li::before {
   color: $link-color;
 }
 
+blockquote {
+  margin: 0 0 1rem;
+  border-left: 4px solid;
+  padding-left: 16px;
+  // background-color: rgb(238, 238, 238);
+  background: rgb(255,255,235);
+  background: -moz-linear-gradient(165deg, rgba(255,255,235,1) 0%, rgba(255,255,255,0.7008053221288515) 100%);
+  background: -webkit-linear-gradient(165deg, rgba(255,255,235,1) 0%, rgba(255,255,255,0.7008053221288515) 100%);
+  background: linear-gradient(90deg, rgb(255 251 233) 0%, rgba(255, 255, 255, 0.7008053221) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffeb",endColorstr="#ffffff",GradientType=1);
+}
 
 @media only screen and (min-width: 200px) and (max-width: 768px) {
   body {

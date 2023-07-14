@@ -8,20 +8,20 @@
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .logo-img {
   width: 80%;
   height: 80%;
   border: 4px solid gold;
   border-radius: 50%;
   margin: 16px 16px;
+  .logo-panel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
 }
 
-.logo-panel {
-  /* height: 220px; */
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;}
 </style>

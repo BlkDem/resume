@@ -5,8 +5,8 @@
     :icon="'fa-solid fa-kitchen-set'"
   >
 
-  <div class="row">
-    <div class="col-md-6">
+  <b-row>
+    <b-col md="6">
       <!-- <h4>Основной стэк</h4> -->
       <ul class="font-primary-color">
         <li>
@@ -25,9 +25,9 @@
           Bootstrap / Vuetify / Bulma
         </li>
       </ul>
-    </div>
+    </b-col>
       <!-- <p>, VueJS/NuxtJS, NodeJS, MySQL, HTML/CSS/JS</p> -->
-    <div class="col-md-6">
+    <b-col md="6">
       <!-- <h4>Дополнительно</h4> -->
       <ul class="font-primary-color">
         <li>
@@ -43,8 +43,8 @@
           Linux
         </li>
       </ul>
-    </div>
-  </div>
+    </b-col>
+  </b-row>
 
       <!-- <div class="space-4"></div>
       <div class="row">

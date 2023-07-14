@@ -23,14 +23,14 @@
       <div class="p-gradient my-2"><p class="small-p">2006-06 - 2020-05</p></div>
 
       <h4>Руководитель ИТ департамента</h4>
-      <p><a href="https://www.suek.ru" target="_blank" class="gold">АО «СУЭК»</a> - энергетическая корпорация.
+      <p><a href="https://www.suek.ru" target="_blank" class="gold">АО «СУЭК»</a> - энергетическая корпорация. </p>
         <ul>
           <li>Поддержка инфраструктуры</li>
           <li>Внедрение и сопровождение ПО</li>
           <li>Планирование, бюджетирование</li>
           <li>Servicedesk</li>
         </ul>
-      </p>
+
       <p class="bottom-p">Москва, Россия</p>
 
   </BaseCard>

@@ -1,6 +1,6 @@
 <template>
-  <div class="row space-bottom-8">
-    <div class="col-md-6 media-text-center">
+  <b-row class="space-bottom-8">
+    <b-col md="6" class="media-text-center">
       <h1 class="w-100 p-2">
         Максим Пятков
       </h1>
@@ -13,8 +13,8 @@
           Save PDF
         </a>
       </p>
-    </div>
-    <div class="col-md-6 p-4 font-2x">
+    </b-col>
+    <b-col md="6" class="p-4 font-2x">
       <div class="icon-social">
         <div class="mx-1">
           <a class="gold" href="https://github.com/BlkDem" target="_blank" v-b-tooltip.hover
@@ -52,8 +52,8 @@
           </a>
         </div>
       </div>
-    </div>
-  </div>
+    </b-col>
+  </b-row>
 </template>
 
 <script setup>
@@ -74,14 +74,6 @@ onMounted( () => {
 </script>
 
 <style scoped>
-.font-900 {
-  font-weight: 900;
-}
-
-.head-ul {
-  list-style: none;
-}
-
 .font-2x {
   font-size: 1.2rem;
 }

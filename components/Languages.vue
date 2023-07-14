@@ -5,13 +5,9 @@
     :icon="'fa-solid fa-language'"
   >
 
-    <!-- <div class="m-4"> -->
-
       <p>Русский, English (B1)</p>
 
       <div class="space-4"></div>
-
-    <!-- </div> -->
 
   </BaseCard>
 

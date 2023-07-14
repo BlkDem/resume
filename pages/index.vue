@@ -86,36 +86,6 @@ import LastTimes from '../components/LastTimes.vue';
 // import TagCloud from '../components/TagCloud.vue';
 import Footer from '../components/Footer.vue';
 
-// import { ref } from 'vue'
-// import { exportToPDF } from 'nuxt-pdf'
-// const pdfSection = ref<HTMLElement | null>(null)
-
-
-
-// export default {
-//     name: "IndexPage",
-
-//     components: {
-//       MasterLayer,
-//       Logo,
-//       Software,
-//       Hardware,
-//       SoftSkills,
-//       SoftTeam,
-//       MainHead,
-//       Experience,
-//       ExperienceDetail,
-//       Education,
-//       Languages,
-//       Portfolio,
-//       Intro,
-//       AnyProjects,
-//       Money,
-//       TagCloud,
-//       Footer,
-//     },
-
-// }
 </script>
 
 <style lang="scss">
