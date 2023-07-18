@@ -8,7 +8,7 @@
 
       <article name="fullstack">
         <div class="p-gradient my-2">
-          <p class="small-p">2018-05 - now</p>
+          <time class="small-p">2018-05 - now</time>
         </div>
         <h4>Инженер-разработчик (Fullstack)</h4>
         <p>Компания <a class="gold" href="https://umolab.ru" target="_blank">"Umolab"</a></p>
@@ -28,7 +28,7 @@
 
       <article name="dit">
         <div class="p-gradient my-2">
-          <p class="small-p">2006-06 - 2020-05</p>
+          <time class="small-p">2006-06 - 2020-05</time>
         </div>
 
         <h4>Руководитель ИТ департамента</h4>
@@ -55,6 +55,3 @@ export default {
 }
 
 </script>
-
-<style>
-</style>

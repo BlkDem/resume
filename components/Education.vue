@@ -7,7 +7,7 @@
       :icon="'fa-solid fa-user-graduate'">
 
       <div class="p-gradient my-2">
-        <p class="small-p">2004 г.</p>
+        <time class="small-p">2004 г.</time>
       </div>
       <h4>Новосибирский Государственный Технический
         Университет</h4>
@@ -29,4 +29,3 @@ export default {
 
 </script>
 
-</style>
