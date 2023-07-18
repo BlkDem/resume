@@ -1,7 +1,7 @@
 <template>
-  <aside name="logo" class="logo-panel">
+  <section name="logo" class="logo-panel">
     <img src="../store/images/me.jpg" class="logo-img" alt="">
-  </aside>
+  </section>
 </template>
 
 <script>
@@ -9,6 +9,8 @@
 </script>
 
 <style lang="scss" scoped>
+
+@import "../scss/App.scss";
 
 .logo-panel {
     width: 100%;
@@ -19,7 +21,7 @@
     .logo-img {
       width: 80%;
       height: 80%;
-      border: 4px solid gold;
+      border: 4px solid $gold-main;
       border-radius: 50%;
       margin: 16px 16px;
   }

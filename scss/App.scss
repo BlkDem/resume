@@ -1,11 +1,4 @@
-$link-color: rgb(234, 190, 33);
-$link-hover: goldenrod;
-$primary-color: #333;
-$white-color: white;
-$white-silver: #eee;
-$white-grey: #555;
-$grey-color: grey;
-
+@import "./vars";
 
 body {
   font-family: 'Montserrat', 'Arial', 'Sans Serif';
@@ -41,6 +34,13 @@ section {
   header {
     margin-bottom: 1.5rem !important;
   }
+}
+
+footer {
+  color: $white-color;
+  text-align: center;
+  padding: 4px 0px;
+  margin: 8px 0;
 }
 
 @keyframes shine {
