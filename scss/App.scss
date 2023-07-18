@@ -36,6 +36,13 @@ a:hover {
   animation: shine 2s infinite;
 }
 
+section {
+  margin: 0.5rem;
+  header {
+    margin-bottom: 1.5rem !important;
+  }
+}
+
 @keyframes shine {
   from {
     -webkit-mask-position: 150%;
@@ -128,11 +135,11 @@ li::before {
 }
 
 .space-4 {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .space-bottom-8 {
-  padding-bottom: 4rem;
+  padding-bottom: 3.5rem;
 }
 
 .small-p {

@@ -1,5 +1,6 @@
 <template>
-  <BaseCard
+  <BaseBlock
+    :section-name="'hardware'"
     :card-caption="'Hardware'"
     :icon="'fa-solid fa-microchip'"
   >
@@ -11,14 +12,14 @@
       <li>Controllers</li>
       <li>Automation</li>
     </ul>
-  </BaseCard>
+  </BaseBlock>
 </template>
 
 <script>
-import BaseCard from './BaseCard.vue';
+import BaseBlock from './BaseBlock.vue';
 
 export default {
-  components: {BaseCard}
+  components: {BaseBlock}
 }
 
 </script>

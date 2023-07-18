@@ -58,10 +58,10 @@
 </template>
 
 <script>
-import BaseCard from './BaseCard.vue';
+import BaseBlock from './BaseBlock.vue';
 
 export default {
-  components: {BaseCard}
+  components: {BaseBlock}
 }
 
 </script>

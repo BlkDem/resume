@@ -1,6 +1,7 @@
 <template>
 
-  <BaseCard
+  <BaseBlock
+    :section-name="'devskills'"
     :card-caption="'Software'"
     :icon="'fa-brands fa-ubuntu'"
   >
@@ -11,15 +12,15 @@
       <li>REST API</li>
       <li>LINUX</li>
     </ul>
-  </BaseCard>
+  </BaseBlock>
 
 </template>
 
 <script>
 
-import BaseCard from './BaseCard.vue';
+import BaseBlock from './BaseBlock.vue';
 export default {
-  comments: {BaseCard}
+  comments: {BaseBlock}
 }
 
 </script>

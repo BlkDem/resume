@@ -1,5 +1,6 @@
 <template>
-  <BaseCard
+  <BaseBlock
+    :section-name="'any'"
     :card-caption="'Прочие работы'"
     :color="'dark'"
     :icon="'fa-solid fa-briefcase'"
@@ -56,15 +57,15 @@
       </a>
     </p> -->
 
-  </BaseCard>
+  </BaseBlock>
 
 </template>
 
 <script>
-import BaseCard from './BaseCard.vue';
+import BaseBlock from './BaseBlock.vue';
 
 export default {
-  components: {BaseCard}
+  components: {BaseBlock}
 }
 
 </script>

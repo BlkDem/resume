@@ -1,7 +1,7 @@
 <template>
-  <div class="w-100 text-center my-2 back-gradient text-white">
+  <footer class="w-100 text-center my-2 back-gradient text-white">
     BlkDem &copy;2023
-  </div>
+  </footer>
 </template>
 
 <style scoped>

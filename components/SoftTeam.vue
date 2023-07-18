@@ -1,6 +1,7 @@
 <template>
 
-  <BaseCard
+  <BaseBlock
+    :section-name="'teamplayer'"
     :card-caption="'Team player'"
     :icon="'fa-brands fa-ubuntu'"
   >
@@ -12,15 +13,15 @@
       <li>Позитивность</li>
       <li>Высокий EQ</li>
     </ul>
-  </BaseCard>
+  </BaseBlock>
 
 </template>
 
 <script>
 
-import BaseCard from './BaseCard.vue';
+import BaseBlock from './BaseBlock.vue';
 export default {
-  comments: {BaseCard}
+  comments: {BaseBlock}
 }
 
 </script>

@@ -1,7 +1,7 @@
 <template>
-  <div class="logo-panel">
+  <aside name="logo" class="logo-panel">
     <img src="../store/images/me.jpg" class="logo-img" alt="">
-  </div>
+  </aside>
 </template>
 
 <script>

@@ -1,6 +1,7 @@
 <template>
 
-  <BaseCard
+  <BaseBlock
+    :section-name="'softskills'"
     :card-caption="'Self-management'"
     :icon="'fa-brands fa-ubuntu'"
   >
@@ -13,15 +14,15 @@
       <li>Тайм-менеджмент</li>
       <li>Самообучение</li>
     </ul>
-  </BaseCard>
+  </BaseBlock>
 
 </template>
 
 <script>
 
-import BaseCard from './BaseCard.vue';
+import BaseBlock from './BaseBlock.vue';
 export default {
-  comments: {BaseCard}
+  comments: {BaseBlock}
 }
 
 </script>

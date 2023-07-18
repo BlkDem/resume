@@ -1,5 +1,6 @@
 <template>
-  <BaseCard
+  <BaseBlock
+    :section-name="'mystack'"
     :card-caption="'Основной стэк'"
     :color="'dark'"
     :icon="'fa-solid fa-kitchen-set'"
@@ -83,15 +84,15 @@
 
       <div class="space-4"></div>
 
-  </BaseCard>
+  </BaseBlock>
 
 </template>
 
 <script>
-import BaseCard from './BaseCard.vue';
+import BaseBlock from './BaseBlock.vue';
 
 export default {
-  components: {BaseCard}
+  components: {BaseBlock}
 }
 
 </script>

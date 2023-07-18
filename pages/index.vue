@@ -1,8 +1,4 @@
 <template>
-  <div ref="pdfSection">
-    <!-- <button @click="exportToPDF('my-pdf-file.pdf', pdfSection)">
-      print card
-    </button> -->
   <MasterLayer>
 
     <template v-slot:left>
@@ -55,14 +51,13 @@
 
     </template>
 
-    <template v-slot:bottom >
+    <template v-slot:footer >
       <Footer />
 
       <!-- <TagCloud /> -->
     </template>
 
   </MasterLayer>
-</div>
 
 </template>
 

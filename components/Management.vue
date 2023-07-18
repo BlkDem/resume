@@ -1,7 +1,8 @@
 <template>
 
-  <BaseCard
-    :card-caption="'Management'"
+  <BaseBlock
+    :section-name="'stack'"
+    :card-caption="'Stack'"
     :icon="'fa-solid fa-user-tie'"
   >
     <ul>
@@ -11,14 +12,14 @@
       <li>REST API</li>
       <li>LINUX</li>
     </ul>
-  </BaseCard>
+  </BaseBlock>
 </template>
 
 <script>
 
-import BaseCard from './BaseCard.vue';
+import BaseBlock from './BaseBlock.vue';
 export default {
-  components: {BaseCard}
+  components: {BaseBlock}
 }
 
 </script>

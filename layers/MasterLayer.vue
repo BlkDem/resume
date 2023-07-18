@@ -2,22 +2,24 @@
 
   <div class="container">
     <div class="row row-right-border">
-    <div class="col-sm-3 col-md-4 bg-dark">
-      <slot name="left">
+      <div class="col-sm-3 col-md-4 bg-dark">
+        <slot name="left">
 
-      </slot>
-    </div>
+        </slot>
+      </div>
+
     <div  class="col-sm-9 col-md-8">
-      <slot name="right">
 
-      </slot>
+        <slot name="right">
+
+        </slot>
+
     </div>
   </div>
-  <div class="row">
-    <slot name="bottom">
+    <slot name="footer">
 
     </slot>
+
   </div>
-</div>
 
 </template>

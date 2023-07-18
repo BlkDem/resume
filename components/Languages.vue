@@ -1,23 +1,26 @@
 <template>
-  <BaseCard
+  <BaseBlock
+    :section-name="'langs'"
     :card-caption="'Языки'"
     :color="'dark'"
     :icon="'fa-solid fa-language'"
   >
 
+    <article name="langs">
       <p>Русский, English (B1)</p>
+    </article>
 
-      <div class="space-4"></div>
+    <div class="space-4"></div>
 
-  </BaseCard>
+  </BaseBlock>
 
 </template>
 
 <script>
-import BaseCard from './BaseCard.vue';
+import BaseBlock from './BaseBlock.vue';
 
 export default {
-  components: {BaseCard}
+  components: {BaseBlock}
 }
 
 </script>
