@@ -1,7 +1,7 @@
 <template>
-  <section name="logo" class="logo-panel">
+  <div name="logo" class="logo-panel">
     <img src="../store/images/me.jpg" class="logo-img" alt="">
-  </section>
+  </div>
 </template>
 
 <script>
@@ -12,6 +12,7 @@
 
 @import "../scss/App.scss";
 
+$image-height: 240px;
 .logo-panel {
     width: 100%;
     display: flex;
@@ -19,8 +20,8 @@
     align-content: center;
     flex-wrap: wrap;
     .logo-img {
-      width: 80%;
-      height: 80%;
+      width: $image-height;
+      height: $image-height;
       border: 4px solid $gold-main;
       border-radius: 50%;
       margin: 16px 16px;
