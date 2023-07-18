@@ -1,6 +1,6 @@
 <template>
 
-  <section :name="sectionName" class="default-panel">
+  <section :name="sectionName">
       <header>
         <h3 :class="{'light-color': color==='light', 'dark-color': color==='dark'}">
           <span class="gold">
