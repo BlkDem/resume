@@ -1,21 +1,21 @@
 <template>
 
   <div class="container">
-    <div class="row row-right-border">
-      <div class="col-sm-3 col-md-4 bg-dark">
+    <b-row class="row-right-border">
+      <b-col sm="3" md="4" class="bg-dark">
         <slot name="left">
 
         </slot>
-      </div>
+      </b-col>
 
-    <div  class="col-sm-9 col-md-8">
+      <b-col sm="9" md="8">
 
         <slot name="right">
 
         </slot>
 
-    </div>
-  </div>
+      </b-col>
+    </b-row>
     <slot name="footer">
 
     </slot>

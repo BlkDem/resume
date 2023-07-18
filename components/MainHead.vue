@@ -8,27 +8,34 @@
           Максим Пятков
         </h1>
         <!-- <p class="mx-2">Software Engineer</p> -->
-        <p class="mx-2 pt-2" @dblclick="HideLink" :class="{'js-hidelink': isHideLink}">
+        <!-- <p class="mx-2 pt-2" @dblclick="HideLink" :class="{'js-hidelink': isHideLink}">
           <a class="gold" href="/pdf/CV_PyatkovM.pdf">
             <font-awesome-icon icon="fa-solid fa-file-pdf" size="2xl" />
             Save PDF
           </a>
-        </p>
+        </p> -->
       </b-col>
       <b-col md="6" class="p-4 font-2x">
         <div class="icon-social">
+          <div class="mx-1">
+            <a class="gold" href="/pdf/CV_PyatkovM.pdf" target="_blank" v-b-tooltip.hover
+              title="Save PDF">
+            <font-awesome-icon icon="fa-solid fa-file-pdf" size="2xl" />
+            <!-- Save PDF -->
+          </a>
+          </div>
           <div class="mx-1">
             <a class="gold" href="https://github.com/BlkDem" target="_blank" v-b-tooltip.hover
               title="https://github.com/BlkDem">
               <font-awesome-icon icon="fa-brands fa-square-github" size="2xl" />
             </a>
           </div>
-          <div class="mx-1">
+          <!-- <div class="mx-1">
             <a class="gold" href="https://linkedin.com/in/blkdem" target="_blank" v-b-tooltip.hover
               title="https://linkedin.com/in/blkdem">
               <font-awesome-icon icon="fa-brands fa-linkedin" size="2xl" />
             </a>
-          </div>
+          </div> -->
           <div class="mx-1">
             <a class="gold" href="mailto:blkdem@blkdem.ru" target="_blank" v-b-tooltip.hover title="blkdem@blkdem.ru">
               <font-awesome-icon icon="fa-solid fa-square-envelope" size="2xl" />
@@ -53,6 +60,10 @@
             </a>
           </div>
         </div>
+        <div class="w-100">
+          <p class="my-phone">+7 903 907 3355</p>
+          <p class="sub-sign">(WhatsApp / Telegram)</p>
+        </div>
       </b-col>
     </b-row>
 
@@ -64,12 +75,12 @@
 
 import { onMounted, ref } from 'vue';
 
-let isHideLink = ref(false);
+// let isHideLink = ref(false);
 
-function HideLink() {
-  isHideLink.value = !isHideLink.value;
-  console.log(isHideLink.value);
-}
+// function HideLink() {
+//   isHideLink.value = !isHideLink.value;
+//   console.log(isHideLink.value);
+// }
 
 onMounted( () => {
   console.log('BlkDem`s CV v 2.0.1');
@@ -77,7 +88,9 @@ onMounted( () => {
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+
+@import "../scss/App.scss";
 .font-2x {
   font-size: 1.2rem;
 }
@@ -91,6 +104,27 @@ onMounted( () => {
 
 .js-hidelink {
   display: none;
+}
+
+.my-phone {
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-bottom: 2px solid $gold-light;
+  color: #333;
+  margin-top: 16px;
+  text-align: right;
+}
+
+.sub-sign {
+  font-size: 1rem;
+  margin-top: -14px;
+  text-align: right;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+  .my-phone, .sub-sign {
+    text-align: center;
+  }
 }
 
 </style>

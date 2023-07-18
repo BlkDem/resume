@@ -1,4 +1,5 @@
 <template>
+
   <MasterLayer>
 
     <template v-slot:left>
