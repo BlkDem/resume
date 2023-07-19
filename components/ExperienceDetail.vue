@@ -98,10 +98,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../scss/App.scss";
+// @import "../scss/App.scss";
 
-.font-primary-color {
-  color: $primary-color;
-}
+// .font-primary-color {
+//   color: $primary-color;
+// }
 
 </style>
