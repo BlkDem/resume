@@ -11,7 +11,7 @@
           <time class="small-p">2018-05 - now</time>
         </div>
         <h4>Инженер-разработчик (Fullstack)</h4>
-        <p>Компания <a class="gold" href="https://umolab.ru" target="_blank">"Umolab"</a></p>
+        <p>Компания <a class="gold" href="https://umolab.ru" target="_blank">«Umolab»</a></p>
         <ul class="font-primary-color">
           <li>
             Разработка программного обеспечения
