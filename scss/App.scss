@@ -256,6 +256,10 @@ blockquote {
   .bottom-p {
     font-size: 0.8rem;
   }
+
+  .row-right-border {
+    border-right: 0px solid;
+  }
 }
 
 @media (min-width: 1200px) {

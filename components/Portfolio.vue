@@ -215,6 +215,12 @@ h5 {
   padding: 4px;
 }
 
+// a .thumb-img:hover {
+//   margin-top: -4px;
+//   margin-left: -4px;
+//   box-shadow: 4px 4px 8px #333;
+// }
+
 .bottom-p {
   margin: 8px 0px;
 }
