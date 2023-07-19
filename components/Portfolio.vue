@@ -201,8 +201,9 @@ export default {
 
 h5 {
   margin-top: 64px;
-  border-bottom: 1px solid gold;
+  border-bottom: 1px solid;
   padding-bottom: 8px;
+  border-image: linear-gradient(to right, #ffc107, #ffffffb5 ) 47% 0%;
 }
 .thumb-img {
   width: 400px;
