@@ -37,6 +37,11 @@ export default {
       default: '#eee'
     },
 
+    isDark: {
+      type: Boolean,
+      default: false
+    },
+
     icon: {
       type: String,
       default: 'fa-brands fa-ubuntu'
@@ -49,7 +54,7 @@ export default {
 <style>
 
 .light-color {
-  color: #ccc;
+  color: #fff;
 }
 
 .dark-color {

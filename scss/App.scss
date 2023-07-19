@@ -216,6 +216,17 @@ blockquote {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffeb",endColorstr="#ffffff",GradientType=1);
 }
 
+.media-show {
+  display: none;
+}
+
+// @media only screen and (min-width: 769px) and (max-width: 1024px) {
+//   .logo-img {
+//     width: 80%;
+//     height: auto;
+//   }
+// }
+
 @media only screen and (min-width: 200px) and (max-width: 768px) {
   body {
     font-size: 0.9rem;
@@ -228,6 +239,10 @@ blockquote {
 
   .media-hide {
     display: none;
+  }
+
+  .media-show {
+    display: block;
   }
 
   .media-text-center {

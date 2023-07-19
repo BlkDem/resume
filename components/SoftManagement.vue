@@ -4,8 +4,9 @@
     :section-name="'softskills'"
     :card-caption="'Self-management'"
     :icon="'fa-brands fa-ubuntu'"
+    :color="color"
   >
-  <ul class="light-text-ul">
+  <ul :class="{'light-text-ul': color==='light', 'dark-text-ul': color==='dark'}">
       <li>Работоспособность</li>
       <li>Самомотивация</li>
       <li>Постановка целей</li>
@@ -22,10 +23,19 @@
 
 import BaseBlock from './BaseBlock.vue';
 export default {
-  comments: {BaseBlock}
+  components: {BaseBlock},
+  props: {
+    color: {
+      type: String,
+      default: 'light'
+    }
+  }
 }
 
 </script>
 
-<style>
+<style scoped>
+.dark-text-ul {
+  color: #333;
+}
 </style>

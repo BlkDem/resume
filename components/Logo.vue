@@ -12,7 +12,7 @@
 
 @import "../scss/App.scss";
 
-$image-height: 240px;
+$image-height: 220px;
 .logo-panel {
     width: 100%;
     display: flex;

@@ -4,8 +4,9 @@
     :section-name="'teamplayer'"
     :card-caption="'Team player'"
     :icon="'fa-brands fa-ubuntu'"
+    :color="color"
   >
-  <ul class="light-text-ul">
+  <ul :class="{'light-text-ul': color==='light', 'dark-text-ul': color==='dark'}">
 
       <li>Ответственность за результат</li>
       <li>Целеустремленность</li>
@@ -21,7 +22,13 @@
 
 import BaseBlock from './BaseBlock.vue';
 export default {
-  comments: {BaseBlock}
+  components: {BaseBlock},
+  props: {
+    color: {
+      type: String,
+      default: 'light'
+    }
+  }
 }
 
 </script>

@@ -16,9 +16,9 @@
 
         <h2 class="skills"> Soft Skills</h2>
 
-        <SoftSkills />
+        <SoftSkills :color="'light'"/>
 
-        <SoftTeam />
+        <SoftTeam :color="'light'"/>
 
 
 
@@ -49,6 +49,12 @@
       <!-- <AnyProjects /> -->
 
       <!-- <TagCloud /> -->
+
+      <div class="media-show">
+        <!-- <h2 class="skills"> Soft Skills</h2> -->
+        <SoftSkills :color="'dark'"/>
+        <SoftTeam :color="'dark'"/>
+      </div>
 
     </template>
 
