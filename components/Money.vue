@@ -8,7 +8,7 @@
 
     <ul class="font-primary-color">
       <li>
-        150 000 - 250 000 ₽ / 2 000 - 3 000 $ / 50 000 - 80 000 ₺
+        <strong>150 000 ₽ <span class="gold">/</span> 2 000 $ <span class="gold">/</span> 50 000 ₺</strong>
       </li>
       <li>
         Зарплата возможна в криптовалюте

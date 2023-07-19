@@ -7,8 +7,10 @@
       </div>
       <h4>Umolab QRM (Quick Response Manufacturing)</h4>
 
+
       <a class="gold" href="https://iotman.blkdem.ru" target="_blank">
-        <img src="../store/images/thumb/iotman1.png" class="thumb-img" alt="Iotman"></a>
+        <img src="../store/images/thumb/iotman1_400.png" class="thumb-img" alt="Iotman">
+      </a>
 
       <p>
         <h6>Производство</h6>
@@ -53,14 +55,23 @@
     </article>
 
     <div class="space-4"></div>
+
+    <div class="p-gradient my-2">
+      <p class="small-p">Другие работы</p>
+    </div>
+
     <h4>Приложения экосистемы Umolab</h4>
     <div class="space-4"></div>
 
     <article name="view3d">
 
-      <h5>3D конфигуратор - витрина</h5>
+      <h5>
+        <!-- <i class="fa-solid fa-compact-disc"></i> -->
+        <span class="gold"><font-awesome-icon icon="fa-solid fa-compact-disc" /></span>
+        3D конфигуратор - витрина
+      </h5>
       <a class="gold" href="https://mycase.umolab.ru/" target="_blank">
-        <img src="../store/images/thumb/mycase1.png" class="thumb-img" alt="3D conf" /></a>
+        <img src="../store/images/thumb/mycase1_400.png" class="thumb-img" alt="3D conf" /></a>
       <p> Витрина корпусов из акрила и пластика с облачными контроллерами Umolab Devices</p>
       <p> Клиенту предлагается самому выбрать дизайн для заказа.</p>
       <blockquote>
@@ -79,9 +90,12 @@
 
     <article name="supertod">
 
-      <h5>Supertod.ru</h5>
+      <h5>
+        <span class="gold"><font-awesome-icon icon="fa-solid fa-compact-disc" /></span>
+        Supertod.ru
+      </h5>
       <a class="gold" href="https://supertod.ru/" target="_blank">
-        <img src="../store/images/thumb/st.png" class="thumb-img" alt="3D conf" /></a>
+        <img src="../store/images/thumb/st_400.png" class="thumb-img" alt="3D conf" /></a>
       <p> Промо страница интернет магазина устройств Umolab Group</p>
       <blockquote>
         <p> <strong>Стэк:</strong> Nuxt (SSG)<br />
@@ -124,9 +138,13 @@
   -->
     <article name="mqtt2mysql">
       <div class="w-100 h-160px">
-        <h5>MQTT2MySQL</h5>
+        <h5>
+          <span class="gold"><font-awesome-icon icon="fa-solid fa-compact-disc" /></span>
+          MQTT2MySQL
+        </h5>
         <a class="gold" href="https://github.com/BlkDem/iotman-logger" target="_blank">
-          <img src="../store/images/thumb/mqtt.png" class="thumb-img" alt="MQTT2MySQL" /></a>
+          <img src="../store/images/thumb/mqtt_400.png" class="thumb-img" alt="MQTT2MySQL" />
+        </a>
         <p> Журналирование работы устройств Umolab. Мост MQTT -> MySQL </p>
       </div>
       <blockquote>
@@ -141,9 +159,12 @@
     </article>
     <article>
       <div class="w-100 h-160px">
-        <h5>u-emu</h5>
-        <a class="gold" href="https://github.com/BlkDem/u-desktop" target="_blank">
-          <img src="../store/images/thumb/u-emu.png" class="thumb-img" alt="u-emu" /></a>
+        <h5>
+          <span class="gold"><font-awesome-icon icon="fa-solid fa-compact-disc" /></span>
+          u-emu
+        </h5>
+        <a class="gold" href="https://u-desktop.umolab.ru/" target="_blank">
+          <img src="../store/images/thumb/u-emu_400.png" class="thumb-img" alt="u-emu" /></a>
         <p> Эмулятор контроллеров Umolab Devices. Инструмент тестирования экосистемы, её сервисов, проверки устойчивости
           и стабильности. </p>
       </div>
@@ -177,14 +198,32 @@ export default {
 
 <style lang="scss" scoped>
 @import "../scss/App.scss";
+
+h5 {
+  margin-top: 64px;
+  border-bottom: 1px solid gold;
+  padding-bottom: 8px;
+}
 .thumb-img {
-  width: 200px;
+  width: 400px;
   height: auto;
-  margin-right: 8px;
+  margin-top: 8px;
+  // margin-right: 8px;
   /* float: left; */
-  border: 2px solid gold;
+  border: 1px solid gold;
   border-radius: 8px;
-  padding: 2px;
+  padding: 4px;
+}
+
+.bottom-p {
+  margin: 8px 0px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+  .thumb-img {
+    width: 100%;
+    // height: auto;
+  }
 }
 
 
