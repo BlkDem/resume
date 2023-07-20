@@ -10,7 +10,9 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Пятков Максим -  инженер-программист из Анталии. Фронтэнд, бэкэнд, фуллстэк.' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'yandex-verification', content: 'b5601293fe31d239' }
+      { name: 'yandex-verification', content: 'b5601293fe31d239' },
+      { name: 'yandex-verification', content: '45656f5f3e3ef9d7' }
+      // <meta name="yandex-verification" content="45656f5f3e3ef9d7" />
 
     ],
     link: [
@@ -47,6 +49,7 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     '@sidebase/nuxt-pdf',
+    '@nuxtjs/dotenv',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
