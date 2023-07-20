@@ -71,23 +71,6 @@
 
 </template>
 
-<script setup>
-
-import { onMounted, ref } from 'vue';
-
-// let isHideLink = ref(false);
-
-// function HideLink() {
-//   isHideLink.value = !isHideLink.value;
-//   console.log(isHideLink.value);
-// }
-
-onMounted( () => {
-  console.log('BlkDem`s CV v 2.0.1');
-})
-
-</script>
-
 <style lang="scss" scoped>
 
 @import "../scss/App.scss";
