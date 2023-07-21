@@ -118,10 +118,12 @@ onMounted(() => {
 
   const clientData = {};
   clientData['client_userAgent'] = navigator.userAgent;
+  clientData['client_fingerprint'] = $nuxt.$fingerprint;
   clientData['client_language'] = navigator.language;
   clientData['client_time'] = new Date();
   clientData['client_timeLocale'] = new Date().toLocaleString();
   clientData['client_timezone'] = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
 
   const stat_request = process.env.STAT_HOST + process.env.STAT_REQUEST;
 
