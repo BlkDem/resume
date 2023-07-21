@@ -34,7 +34,9 @@
 
       <Money />
 
-      <ExperienceDetail />
+      <MainStack />
+
+      <ArchTags />
 
       <Education />
 
@@ -71,20 +73,21 @@
 <script setup>
 import MasterLayer from '../layers/MasterLayer.vue';
 import Logo from '../components/Logo.vue'
-import Software from '../components/DevSkills.vue'
+// import Software from '../components/DevSkills.vue'
 import SoftSkills from '../components/SoftManagement.vue'
 import SoftTeam from '../components/SoftTeam.vue'
-import Hardware from '../components/HardSkills.vue'
+// import Hardware from '../components/HardSkills.vue'
 import MainHead from '../components/MainHead.vue'
 import Experience from '../components/Experience.vue';
-import ExperienceDetail from '../components/ExperienceDetail.vue';
+import MainStack from '../components/MainStack.vue';
+import ArchTags from '../components/ArchTags.vue';
 import Education from '../components/Education.vue';
 import Languages from '../components/Languages.vue';
 import Portfolio from '../components/Portfolio.vue';
 import Intro from '../components/Intro.vue';
-import AnyProjects from '../components/Any.vue';
+// import AnyProjects from '../components/Any.vue';
 import Money from '../components/Money.vue';
-import LastTimes from '../components/LastTimes.vue';
+// import LastTimes from '../components/LastTimes.vue';
 // import TagCloud from '../components/TagCloud.vue';
 import Footer from '../components/Footer.vue';
 

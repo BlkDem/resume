@@ -6,10 +6,11 @@
     :color="'dark'"
     :icon="'fa-solid fa-sack-dollar'">
 
+    <div class="money m-2"><strong>150 000 ₽ <span class="gold">/</span> 2 000 $ <span class="gold">/</span> 50 000 ₺</strong></div>
     <ul class="font-primary-color">
-      <li>
+      <!-- <li>
         <strong>150 000 ₽ <span class="gold">/</span> 2 000 $ <span class="gold">/</span> 50 000 ₺</strong>
-      </li>
+      </li> -->
       <li>
         Зарплата возможна в криптовалюте
       </li>
@@ -33,5 +34,15 @@ export default {
 
 </script>
 
-<style>
+<style scoped lang="scss">
+.money {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+  .money {
+    text-align: center;
+  }
+}
 </style>
