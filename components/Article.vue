@@ -44,34 +44,34 @@ export default {
 </script>
 
 <style scoped >
-.arch-tags-group >>> ul {
-  margin: initial; 
-  list-style-type: none;
-}
-.arch-tags-group >>> ul > li {
-  background-color: #eabe21;
-  border-radius: 4px;
-  color: #fff;
-  display: inline-block;
-  font-weight: 700;
-  margin-right: 5px;
-  padding: 4px 8px 4px 28px;
-  margin-bottom: 4px;
-  height: 30px;
-}
+  .arch-tags-group >>> ul {
+    margin: initial; 
+    list-style-type: none;
+  }
+  .arch-tags-group >>> ul > li {
+    background-color: #eabe21;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 5px;
+    padding: 4px 8px 4px 28px;
+    margin-bottom: 4px;
+    height: 30px;
+  }
 
-.arch-tags-group >>> ul > li::before {
-    content: '';
-   }
+  .arch-tags-group >>> ul > li::before {
+      content: '';
+  }
 
-.arch-tags-group {
-  display: flex;
-  flex-direction: row;
-  row-gap: 8px;
-  justify-content: flex-start;
-  margin-bottom: 64px;
-  flex-wrap: wrap;
-  margin-top: 16px;
-}
+  .arch-tags-group {
+    display: flex;
+    flex-direction: row;
+    row-gap: 8px;
+    justify-content: flex-start;
+    margin-bottom: 64px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
 
 </style>

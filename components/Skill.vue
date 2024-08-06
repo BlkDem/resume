@@ -41,6 +41,10 @@ export default {
 
 <style scoped>
   .dark-text-ul {
-  color: #333;
-}
+    color: #333;
+  }
+
+  main >>> ul {
+    margin-bottom: 0.4rem;
+  }
 </style>
