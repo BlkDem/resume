@@ -69,7 +69,7 @@ export default {
     flex-direction: row;
     row-gap: 8px;
     justify-content: flex-start;
-    margin-bottom: 64px;
+    /* margin-bottom: 64px; */
     flex-wrap: wrap;
     margin-top: 16px;
   }
