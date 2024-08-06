@@ -55,7 +55,6 @@ import MainHead from '../components/MainHead.vue'
 import Article from '../components/Article.vue';
 import Footer from '../components/Footer.vue';
 
-
 import { onMounted, watch, ref, reactive } from 'vue';
 
 const cvs = ref({})
