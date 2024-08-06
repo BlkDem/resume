@@ -1,10 +1,16 @@
 <template>
   <div name="logo" class="logo-panel">
-    <img src="../store/images/me.jpg" class="logo-img" alt="">
+    <img :src="profile?.image" class="logo-img" alt="">
   </div>
 </template>
 
 <script>
+export default {
+  props: {
+    profile: {},
+  },
+
+}
 
 </script>
 

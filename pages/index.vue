@@ -4,23 +4,15 @@
 
     <template v-slot:left>
 
-      <Logo />
+      <Logo  :profile="cvs?.profile"/>
 
       <div class="media-hide">
 
-        <!-- <h2 class="skills"> Prof Skills</h2>
-
-        <Software />
-
-        <Hardware /> -->
-
         <h2 class="skills"> Soft Skills</h2>
 
-        <SoftSkills :color="'light'"/>
-
-        <SoftTeam :color="'light'"/>
-
-
+        <div v-for="skill in cvs?.skills">
+          <Skill :color="'light'" :skill="skill"/>
+        </div>
 
       </div>
 
@@ -28,42 +20,26 @@
 
     <template v-slot:right>
 
-      <MainHead />
+      <MainHead :profile="cvs?.profile"/>
 
-      <Intro />
-
-      <Money />
-
-      <MainStack />
-
-      <ArchTags />
-
-      <Education />
-
-      <Experience />
-
-      <Languages />
-
-      <!-- <LastTimes /> -->
-
-      <Portfolio />
-
-      <!-- <AnyProjects /> -->
+      <div v-for="article in cvs?.articles">
+        <Article :article="article"/>
+      </div>
 
       <div class="space-4"></div>
 
       <div class="media-show">
-        <!-- <h2 class="skills"> Soft Skills</h2> -->
-        <SoftSkills :color="'dark'"/>
-        <SoftTeam :color="'dark'"/>
+        <div v-for="skill in cvs?.skills">
+          <Skill :color="'dark'" :skill="skill"/>
+        </div>
+
       </div>
 
     </template>
 
     <template v-slot:footer >
-      <Footer />
+      <Footer :footer="cvs?.version"/>
 
-      <!-- <TagCloud /> -->
     </template>
 
   </MasterLayer>
@@ -71,32 +47,24 @@
 </template>
 
 <script setup>
+
 import MasterLayer from '../layers/MasterLayer.vue';
 import Logo from '../components/Logo.vue'
-// import Software from '../components/DevSkills.vue'
-import SoftSkills from '../components/SoftManagement.vue'
-import SoftTeam from '../components/SoftTeam.vue'
-// import Hardware from '../components/HardSkills.vue'
+import Skill from '../components/Skill.vue'
 import MainHead from '../components/MainHead.vue'
-import Experience from '../components/Experience.vue';
-import MainStack from '../components/MainStack.vue';
-import ArchTags from '../components/ArchTags.vue';
-import Education from '../components/Education.vue';
-import Languages from '../components/Languages.vue';
-import Portfolio from '../components/Portfolio.vue';
-import Intro from '../components/Intro.vue';
-// import AnyProjects from '../components/Any.vue';
-import Money from '../components/Money.vue';
-// import LastTimes from '../components/LastTimes.vue';
-// import TagCloud from '../components/TagCloud.vue';
+import Article from '../components/Article.vue';
 import Footer from '../components/Footer.vue';
 
-import { onMounted } from 'vue';
 
-async function postData(url = '', data = {}) {
+import { onMounted, watch, ref, reactive } from 'vue';
 
+const cvs = ref({})
+
+async function getCvData() {
+
+  const url = process.env.DATA_ENDPOINT
   const response = await fetch(url, {
-    method: 'POST',
+    method: 'GET',
     mode: 'cors', // no-cors, *cors, same-origin
     cache: 'no-cache',
     credentials: 'same-origin',
@@ -105,16 +73,12 @@ async function postData(url = '', data = {}) {
     },
     redirect: 'follow',
     referrerPolicy: 'no-referrer',
-    body: JSON.stringify(data)
   });
 
   return await response.json();
-
 }
 
-onMounted(() => {
-
-  console.log(process.env.CV_RELEASE);
+async function sendStat() {
 
   const clientData = {};
   clientData['client_userAgent'] = navigator.userAgent;
@@ -129,14 +93,43 @@ onMounted(() => {
 
   console.log(`Statistics Server request: ${stat_request}`);
 
-  postData(stat_request, { 'instance': 'cv.blkdem.ru', 'blob': clientData })
+  const response = await fetch(stat_request, {
+    method: 'POST',
+    mode: 'cors', // no-cors, *cors, same-origin
+    cache: 'no-cache',
+    credentials: 'same-origin',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    redirect: 'follow',
+    referrerPolicy: 'no-referrer',
+    body: JSON.stringify({ 'instance': 'cv.blkdem.ru', 'blob': clientData })
+  });
+
+  return await response.json();
+
+}
+
+
+onMounted(async () => {
+
+  console.log(process.env.CV_RELEASE);
+
+  sendStat()
     .then((data) => {
-      console.log(data); // JSON data parsed by `response.json()` call
+      console.log(data);
     });
 
+  cvs.value = await getCvData()
+  .then((data) => {
+      console.log(data.data.articles[0].article)
+      return data.data
+  })
+  
 })
 
 </script>
+
 
 <style lang="scss">
 
