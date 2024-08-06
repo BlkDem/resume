@@ -61,7 +61,7 @@ const cvs = ref({})
 
 async function getCvData() {
 
-  const url = process.env.DATA_ENDPOINT
+  const url = process.env.NUXT_ENV_DATA_ENDPOINT
   const response = await fetch(url, {
     method: 'GET',
     mode: 'cors', // no-cors, *cors, same-origin
