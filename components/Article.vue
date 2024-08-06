@@ -13,7 +13,7 @@
           <div v-if="user_article.header" class="p-gradient my-2">
             <time class="small-p">{{ user_article.header }}</time>
           </div>
-          <h4>{{ user_article.name }}</h4>
+          <h4 class="pt-4">{{ user_article.name }}</h4>
           <div :class="{ 'arch-tags-group': user_article.list_type==='bricks' }"
             v-html="user_article.description">
           </div>
