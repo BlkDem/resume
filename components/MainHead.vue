@@ -5,7 +5,7 @@
     <b-row class="space-bottom-8">
       <b-col md="6" class="media-text-center">
         <h1 class="w-100 p-2">
-          Максим Пятков
+          {{ profile?.name }}
         </h1>
         <!-- <p class="mx-2">Software Engineer</p> -->
         <!-- <p class="mx-2 pt-2" @dblclick="HideLink" :class="{'js-hidelink': isHideLink}">
@@ -16,12 +16,19 @@
         </p> -->
       </b-col>
       <b-col md="6" class="p-4 font-2x">
-        <div class="icon-social">
+          <div class="social-align-right">
+            <a class="gold social-space" v-for="social in profile?.social" 
+              :href="social?.link" 
+              target="_blank" v-b-tooltip.hover
+              :title="social?.description">
+              <font-awesome-icon :icon="social?.icon" size="2xl" />
+            </a>
+          </div>
+        <!-- <div class="icon-social">
           <div class="mx-1">
             <a class="gold" href="/pdf/CV_PyatkovM.pdf" target="_blank" v-b-tooltip.hover
               title="Save PDF">
             <font-awesome-icon icon="fa-solid fa-file-pdf" size="2xl" />
-            <!-- Save PDF -->
           </a>
           </div>
           <div class="mx-1">
@@ -30,12 +37,6 @@
               <font-awesome-icon icon="fa-brands fa-square-github" size="2xl" />
             </a>
           </div>
-          <!-- <div class="mx-1">
-            <a class="gold" href="https://linkedin.com/in/blkdem" target="_blank" v-b-tooltip.hover
-              title="https://linkedin.com/in/blkdem">
-              <font-awesome-icon icon="fa-brands fa-linkedin" size="2xl" />
-            </a>
-          </div> -->
           <div class="mx-1">
             <a class="gold" href="mailto:blkdem@blkdem.ru" target="_blank" v-b-tooltip.hover title="blkdem@blkdem.ru">
               <font-awesome-icon icon="fa-solid fa-square-envelope" size="2xl" />
@@ -59,10 +60,10 @@
               <font-awesome-icon icon="fa-solid fa-location-crosshairs" size="2xl" />
             </a>
           </div>
-        </div>
+        </div> -->
         <div class="w-100">
-          <p class="my-phone">+7 903 907 3355</p>
-          <p class="sub-sign">(WhatsApp / Telegram)</p>
+          <p class="my-phone">{{ profile?.phone }}</p>
+          <p class="sub-sign">{{ profile?.phone_description }}</p>
         </div>
       </b-col>
     </b-row>
@@ -70,6 +71,19 @@
   </header>
 
 </template>
+
+<script>
+export default {
+  props: {
+    profile: {},
+  },
+
+  mounted() {
+    // console.log(profile)
+  }
+}
+
+</script>
 
 <style lang="scss" scoped>
 
@@ -83,6 +97,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.social-space {
+  margin-right: 4px;
+}
+
+.social-align-right {
+  text-align: right;
 }
 
 .js-hidelink {

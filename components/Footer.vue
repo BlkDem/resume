@@ -1,10 +1,19 @@
 <template>
   <footer class="background-gradient">
-    BlkDem &copy;2023
-    <!-- <p><a href="https://github.com/BlkDem/resume" target="_blank">https://github.com/BlkDem/resume</a></p> -->
+    {{ footer }}
   </footer>
 </template>
 
+</template>
+
+<script>
+export default {
+  props: {
+    footer: {},
+  },
+}
+
+</script>
 <style lang="scss" scoped>
 @import "../scss/App.scss";
 .background-gradient {

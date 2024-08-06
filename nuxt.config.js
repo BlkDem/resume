@@ -1,14 +1,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Пятков Максим инженер-программист из Анталии',
+    title: 'Пятков Максим инженер-программист из Нови Сада',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Пятков Максим -  инженер-программист из Анталии. Фронтэнд, бэкэнд, фуллстэк.' },
+      { hid: 'description', name: 'description', content: 'Пятков Максим -  инженер-программист из Нови Сада. Бэкэнд, PHP, Laravel' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'yandex-verification', content: 'b5601293fe31d239' },
       { name: 'yandex-verification', content: '45656f5f3e3ef9d7' }
