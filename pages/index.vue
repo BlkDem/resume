@@ -88,7 +88,7 @@ async function sendStat() {
   clientData['client_timezone'] = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
 
-  const stat_request = process.env.STAT_HOST + process.env.STAT_REQUEST;
+  const stat_request = process.env.NUXT_ENV_STAT_HOST + process.env.NUXT_ENV_STAT_REQUEST;
 
   console.log(`Statistics Server request: ${stat_request}`);
 
@@ -112,7 +112,7 @@ async function sendStat() {
 
 onMounted(async () => {
 
-  console.log(process.env.CV_RELEASE);
+  console.log('CV builder edition v'+process.env.NUXT_ENV_CV_RELEASE);
 
   sendStat()
     .then((data) => {
