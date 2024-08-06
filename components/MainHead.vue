@@ -127,7 +127,7 @@ export default {
 }
 
 @media only screen and (min-width: 200px) and (max-width: 768px) {
-  .my-phone, .sub-sign {
+  .my-phone, .sub-sign, .social-align-right {
     text-align: center;
   }
 }
