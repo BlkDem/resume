@@ -9,7 +9,7 @@
     >
 
       <article :name="article['article'].name">
-        <div v-for="user_article in article.user_article.list">
+        <div class="article" v-for="user_article in article.user_article.list">
           <div v-if="user_article.header" class="p-gradient my-2">
             <time class="small-p">{{ user_article.header }}</time>
           </div>
@@ -29,8 +29,8 @@
           <div :class="{ 'arch-tags-group': user_article.list_type==='bricks' }"
             v-html="user_article.description">
           </div>
-          <p v-if="user_article.footer" class="bottom-p">{{ user_article.footer }}</p>
-          <p v-if="user_article.url" class="bottom-p">
+          <p v-if="user_article.footer" class="bottom-p article_padding_bottom">{{ user_article.footer }}</p>
+          <p v-if="user_article.url" class="bottom-p article_padding_bottom">
             <a :href="user_article.url" target="_blank"> {{ user_article.url }} </a>
           </p>
         </div>
@@ -60,23 +60,28 @@ export default {
 
 </script>
 
-<style scoped >
-  .user_article_preview_image{
-    border: #eabe21 2px solid;
+<style scoped lang="scss">
+  @import "../scss/vars";
+
+  .article_padding_bottom {
+    padding-bottom: 2.5rem;
+  }
+  .user_article_preview_image {
+    border: $gold-light 2px solid;
     border-radius: 8px;
     padding: 4px;
     margin: 8px;
     width: 128px;
     height: auto;
   }
-  .arch-tags-group >>> ul {
+  ::v-deep .arch-tags-group ul {
     margin: initial; 
     list-style-type: none;
   }
-  .arch-tags-group >>> ul > li {
-    background-color: #eabe21;
+  ::v-deep .arch-tags-group ul > li {
+    background-color: $gold-light;
     border-radius: 4px;
-    color: #fff;
+    color: $white-color;
     display: inline-block;
     font-weight: 700;
     margin-right: 5px;
@@ -85,7 +90,7 @@ export default {
     height: 30px;
   }
 
-  .arch-tags-group >>> ul > li::before {
+  ::v-deep .arch-tags-group ul > li::before {
       content: '';
   }
 
