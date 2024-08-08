@@ -14,10 +14,25 @@
             <time class="small-p">{{ user_article.header }}</time>
           </div>
           <h4 class="pt-4">{{ user_article.name }}</h4>
+          <div v-if="user_article.images">
+            <a :href="user_article.url ?? null" 
+              target="_blank"
+               v-for="user_article_image in user_article.images"
+            >
+              <img
+                class="user_article_preview_image"
+                :src="user_article_image?.image" 
+                :alt="user_article.name" 
+              />
+            </a>
+          </div>
           <div :class="{ 'arch-tags-group': user_article.list_type==='bricks' }"
             v-html="user_article.description">
           </div>
-          <p  v-if="user_article.footer" class="bottom-p">{{ user_article.footer }}</p>
+          <p v-if="user_article.footer" class="bottom-p">{{ user_article.footer }}</p>
+          <p v-if="user_article.url" class="bottom-p">
+            <a :href="user_article.url" target="_blank"> {{ user_article.url }} </a>
+          </p>
         </div>
       </article>
 
@@ -31,7 +46,9 @@
 import BaseBlock from './BaseBlock.vue';
 
 export default {
-  components: { BaseBlock },
+  components: { 
+    BaseBlock,
+  },
   props: {
     article: {},
     color: {
@@ -44,6 +61,14 @@ export default {
 </script>
 
 <style scoped >
+  .user_article_preview_image{
+    border: #eabe21 2px solid;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 8px;
+    width: 128px;
+    height: auto;
+  }
   .arch-tags-group >>> ul {
     margin: initial; 
     list-style-type: none;
