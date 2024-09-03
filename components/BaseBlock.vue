@@ -51,14 +51,16 @@ export default {
 
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+@import "../scss/vars";
 
 .light-color {
-  color: #fff;
+  // color: var(--text-primary-color);
 }
 
 .dark-color {
-  color: #333;
+  color: var(--text-primary-color);
 }
 
 .card-item-image {

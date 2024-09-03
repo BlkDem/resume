@@ -48,7 +48,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+
+@import "../scss/App.scss";
+
 .preloader {
     position: fixed;
     left: 0px;
@@ -59,7 +62,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;  
-    background: #fff;
+    background: $white-color;
     transition: all 0.5s;
     opacity: 1;
 }

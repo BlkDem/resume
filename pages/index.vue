@@ -5,6 +5,7 @@
     <template v-slot:left>
 
       <Logo  :profile="cvs?.profile"/>
+      <ThemeSwitch />
 
       <div class="media-hide">
 
@@ -23,7 +24,7 @@
       <MainHead :profile="cvs?.profile"/>
 
       <div v-for="article in cvs?.articles">
-        <Article :article="article"/>
+        <Article :article="article" />
       </div>
 
       <div class="space-4"></div>
@@ -54,6 +55,7 @@ import Skill from '../components/Skill.vue'
 import MainHead from '../components/MainHead.vue'
 import Article from '../components/Article.vue';
 import Footer from '../components/Footer.vue';
+import ThemeSwitch from '../components/ThemeSwitch.vue';
 
 import { onMounted, watch, ref, reactive } from 'vue';
 
@@ -133,5 +135,23 @@ onMounted(async () => {
 <style lang="scss">
 
 @import "../scss/App.scss";
+  /* Define styles for the default root window element */
+  :root {
+    --background-color-primary: #fff;
+    --background-color-secondary: $white-color;
+    --background-color: $white-color;
+    --accent-color: $white-silver;
+    --text-primary-color: #333;
+    --element-size: 4rem;
+  }
+  
+  /* Define styles for the root window with dark - mode preference */
+  :root.dark-theme {
+    --background-color-primary: #595959;
+    --background-color-secondary: $white-silver;
+    --background-color: $white-grey;
+    --accent-color: $primary-color;
+    --text-primary-color: #fff;
+  }
 
 </style>

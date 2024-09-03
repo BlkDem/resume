@@ -3,7 +3,8 @@
 body {
   font-family: 'Montserrat', 'Arial', 'Sans Serif';
   font-size: 1rem;
-  color: $primary-color;
+  color: var(--text-primary-color);
+  background-color: var(--background-color-primary);
 }
 
 p{
@@ -55,7 +56,7 @@ footer {
 
 h1 {
   font-size: 2.5rem;
-  color: $primary-color;
+  color: var(--text-primary-color);
   /* text-transform: uppercase; */
   font-weight: 900;
   margin-top: 1rem;
@@ -82,13 +83,13 @@ h3 {
 }
 
 h4 {
-  color: $primary-color;
+  color: var(--text-primary-color);
   font-size: 1.2rem;
   font-weight: 700;
 }
 
 h5 {
-  color: $primary-color;
+  color: var(--text-primary-color);
   font-size: 1.0rem;
   font-weight: 700;
 }
@@ -100,19 +101,7 @@ h6, .h6 {
 
 ul {
   list-style: none;
-  color: $white-silver;
-}
-
-li {
-  color: $primary-color;
-}
-
-.skills-panel li {
-  color: $white-silver;
-}
-
-.default-panel li {
-  color: $primary-color;
+  // color: $white-silver;
 }
 
 li::before {
@@ -152,7 +141,7 @@ li::before {
 }
 
 .small-p:hover {
-  color: #333;
+  color: var(--text-primary-color);
 }
 
 .right-p {
@@ -167,7 +156,7 @@ li::before {
 }
 
 .row-right-border {
-  border-right: 8px solid $primary-color;
+  border-right: 8px solid var(--text-primary-color);
 }
 
 .flex-right {
@@ -176,7 +165,7 @@ li::before {
 }
 
 .font-primary-color {
-  color: #333;
+  color: var(--text-primary-color);
 }
 
 .selected-text {
@@ -210,6 +199,7 @@ li::before {
 }
 
 blockquote {
+  color: #333;
   margin: 0 0 1rem;
   border-left: 4px solid;
   padding-left: 16px;
