@@ -16,14 +16,14 @@
           <h4 class="pt-4">{{ user_article.name }}</h4>
 
           <div v-if="user_article.images">
-            <ImagePreview v-for="(user_article_image, key) in user_article.images" 
+            <ImagePreview v-for="user_article_image in user_article.images" 
               :image="user_article_image?.image" 
-              :show="key===currentIndex"
+              :show="user_article_image?.id===currentId"
               @clearIndex="onClearIndex"
             />
-            <img v-for="(user_article_image, key) in user_article.images"
+            <img v-for="user_article_image in user_article.images"
               :id="user_article.id" 
-              @click="showImage(key)"
+              @click="showImage(user_article_image?.id)"
               class="user_article_preview_image"
               :src="user_article_image?.image" 
               :alt="user_article.name" 
@@ -53,7 +53,7 @@ export default {
 
   data() {
     return {
-      currentIndex: -1
+      currentId: -1
     };
   },
 
@@ -69,13 +69,13 @@ export default {
   },
 
   methods: {
-    showImage(key) {
-      this.currentIndex = key
+    showImage(id) {
+      this.currentId = id
     },
 
     onClearIndex()
     {
-      this.currentIndex = -1
+      this.currentId = -1
     }
   }
 }
