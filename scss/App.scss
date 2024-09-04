@@ -180,6 +180,15 @@ li::before {
   margin-bottom: 0.4rem;
 }
 
+.user_article_preview_image {
+  border: $gold-light 2px solid;
+  border-radius: 8px;
+  padding: 4px;
+  margin: 8px;
+  width: 128px;
+  height: auto;
+}
+
 .p-gradient {
   // background: rgb(194 159 28);
   // background: linear-gradient(90deg, rgb(194 159 28) 0%, rgb(248 202 59) 23%, rgb(255, 255, 255) 100%);
