@@ -147,7 +147,7 @@ onMounted(async () => {
   
   /* Define styles for the root window with dark - mode preference */
   :root.dark-theme {
-    --background-color-primary: #595959;
+    --background-color-primary: #2f353b;
     --background-color-secondary: $white-silver;
     --background-color: $white-grey;
     --accent-color: $primary-color;
