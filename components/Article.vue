@@ -95,7 +95,7 @@ export default {
   ::v-deep .arch-tags-group ul > li {
     background-color: $gold-light;
     border-radius: 4px;
-    color: $white-color;
+    color: var(--background-color-primary);
     display: inline-block;
     font-weight: 700;
     margin-right: 5px;
