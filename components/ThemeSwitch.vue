@@ -62,21 +62,16 @@ export default {
     getTheme() {
       return localStorage.getItem("user-theme");
     },
-  }
+  },
 };
 </script>
 
 <style>
-
 .switch-checkbox {
   display: none;
 }
 
 .switch-label {
-  /* for width, use the standard element-size */
-  /* width: 4rem;  */
-
-  /* for other dimensions, calculate values based on it */
   border-radius: var(--element-size);
   border: calc(var(--element-size) * 0.025) solid var(--accent-color);
   padding: calc(var(--element-size) * 0.1);
@@ -91,10 +86,9 @@ export default {
   transition: background 0.5s ease;
   justify-content: space-between;
   z-index: 1;
-} 
+}
 
 .switch-toggle-checked {
   transform: translateX(calc(var(--element-size) * 0.6)) !important;
 }
-
 </style>
